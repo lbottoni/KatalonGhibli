@@ -1,0 +1,172 @@
+1
+00:00:00,250 --> 00:00:00,250
+1. comment
+
+2
+00:00:00,265 --> 00:00:00,266
+5. waitForElementVisible
+
+3
+00:00:00,354 --> 00:00:00,355
+9. verifyElementVisible
+
+4
+00:00:00,407 --> 00:00:00,408
+13. verifyElementVisible
+
+5
+00:00:00,473 --> 00:00:00,475
+17. verifyElementVisible
+
+6
+00:00:00,538 --> 00:00:00,538
+21. click
+
+7
+00:00:00,676 --> 00:00:00,677
+25. waitForElementPresent
+
+8
+00:00:00,760 --> 00:00:00,761
+29. verifyElementVisible
+
+9
+00:00:00,817 --> 00:00:00,818
+33. verifyElementNotPresent
+
+10
+00:00:00,955 --> 00:00:00,955
+37. verifyElementPresent
+
+11
+00:00:00,997 --> 00:00:00,998
+41. verifyElementVisible
+
+12
+00:00:01,059 --> 00:00:01,060
+45. comment
+
+13
+00:00:01,070 --> 00:00:01,071
+49. verifyElementVisible
+
+14
+00:00:01,138 --> 00:00:01,139
+53. verifyElementVisible
+
+15
+00:00:01,197 --> 00:00:01,198
+57. verifyElementVisible
+
+16
+00:00:01,268 --> 00:00:01,269
+61. verifyElementPresent
+
+17
+00:00:01,294 --> 00:00:01,295
+65. comment
+
+18
+00:00:01,308 --> 00:00:01,309
+69. verifyElementVisible
+
+19
+00:00:01,376 --> 00:00:01,376
+73. comment
+
+20
+00:00:01,387 --> 00:00:01,388
+77. click
+
+21
+00:00:01,532 --> 00:00:01,533
+81. waitForElementVisible
+
+22
+00:00:02,136 --> 00:00:02,137
+85. comment
+
+23
+00:00:02,147 --> 00:00:02,147
+89. verifyElementPresent
+
+24
+00:00:02,186 --> 00:00:02,187
+93. verifyElementPresent
+
+25
+00:00:02,227 --> 00:00:02,228
+97. verifyElementPresent
+
+26
+00:00:02,276 --> 00:00:02,276
+101. verifyElementPresent
+
+27
+00:00:02,320 --> 00:00:02,321
+105. click
+
+28
+00:00:02,573 --> 00:00:02,573
+109. waitForElementPresent
+
+29
+00:00:02,623 --> 00:00:02,624
+113. verifyElementPresent
+
+30
+00:00:02,672 --> 00:00:02,672
+117. verifyElementPresent
+
+31
+00:00:02,726 --> 00:00:02,727
+121. verifyElementPresent
+
+32
+00:00:02,767 --> 00:00:02,768
+125. verifyElementPresent
+
+33
+00:00:02,814 --> 00:00:02,814
+129. verifyElementPresent
+
+34
+00:00:02,855 --> 00:00:02,855
+133. verifyElementPresent
+
+35
+00:00:02,899 --> 00:00:02,900
+137. verifyElementPresent
+
+36
+00:00:02,946 --> 00:00:02,947
+141. verifyElementPresent
+
+37
+00:00:02,990 --> 00:00:02,991
+145. verifyElementPresent
+
+38
+00:00:03,035 --> 00:00:03,036
+149. delay
+
+39
+00:00:05,049 --> 00:00:05,050
+153. click
+
+40
+00:00:05,154 --> 00:00:05,155
+157. waitForElementNotPresent
+
+41
+00:00:05,237 --> 00:00:05,237
+161. comment
+
+42
+00:00:05,249 --> 00:00:05,249
+165. click
+
+43
+00:00:05,355 --> 00:00:05,356
+169. waitForElementNotVisible
+

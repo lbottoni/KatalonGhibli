@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SuiteGhibli,IE 11,,2018-02-14 17:24:26,2018-02-14 17:25:34,"1m - 7,872s",PASSED
+,,,,,,
+Test Cases/Login,IE 11,,2018-02-14 17:24:28,2018-02-14 17:25:05,"37,484s",PASSED
+openBrowser,IE 11,,2018-02-14 17:24:30,2018-02-14 17:24:48,"17,630s",PASSED
+Statement - input_login = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_username),IE 11,,2018-02-14 17:24:48,2018-02-14 17:24:48,"0,024s",PASSED
+Statement - input_pwd = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_password),IE 11,,2018-02-14 17:24:48,2018-02-14 17:24:48,"0,010s",PASSED
+verifyElementPresent,IE 11,,2018-02-14 17:24:48,2018-02-14 17:24:48,"0,443s",PASSED
+verifyElementPresent,IE 11,,2018-02-14 17:24:48,2018-02-14 17:24:48,"0,165s",PASSED
+setText,IE 11,,2018-02-14 17:24:48,2018-02-14 17:24:50,"1,948s",PASSED
+setText,IE 11,,2018-02-14 17:24:50,2018-02-14 17:24:53,"2,411s",PASSED
+delay,IE 11,,2018-02-14 17:24:53,2018-02-14 17:24:55,"2,056s",PASSED
+Statement - text1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/div_Incorrect Username or Pass)),IE 11,,2018-02-14 17:24:55,2018-02-14 17:24:56,"1,166s",PASSED
+Statement - assert text1 == true,IE 11,,2018-02-14 17:24:56,2018-02-14 17:24:56,"0,003s",PASSED
+doubleClick,IE 11,,2018-02-14 17:24:56,2018-02-14 17:24:57,"1,325s",PASSED
+delay,IE 11,,2018-02-14 17:24:57,2018-02-14 17:24:59,"2,004s",PASSED
+waitForElementPresent,IE 11,,2018-02-14 17:24:59,2018-02-14 17:24:59,"0,122s",PASSED
+"Statement - text2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(""Incorrect Username or Password"", false)",IE 11,,2018-02-14 17:24:59,2018-02-14 17:25:00,"0,462s",PASSED
+Statement - assert text2 == true,IE 11,,2018-02-14 17:25:00,2018-02-14 17:25:00,"0,001s",PASSED
+focus,IE 11,,2018-02-14 17:25:00,2018-02-14 17:25:00,"0,658s",PASSED
+setText,IE 11,,2018-02-14 17:25:00,2018-02-14 17:25:02,"1,342s",PASSED
+focus,IE 11,,2018-02-14 17:25:02,2018-02-14 17:25:02,"0,484s",PASSED
+setText,IE 11,,2018-02-14 17:25:02,2018-02-14 17:25:03,"1,176s",PASSED
+sendKeys,IE 11,,2018-02-14 17:25:03,2018-02-14 17:25:04,"1,090s",PASSED
+delay,IE 11,,2018-02-14 17:25:04,2018-02-14 17:25:05,"1,004s",PASSED
+,,,,,,
+Test Cases/Dashboard,IE 11,,2018-02-14 17:25:05,2018-02-14 17:25:15,"9,976s",PASSED
+"Statement - maps = [com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_sourceQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_destinationQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_correlationID), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflowdashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflow), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_transfersearch), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_setting), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_monitordashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_logout), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter)]",IE 11,,2018-02-14 17:25:06,2018-02-14 17:25:06,"0,129s",PASSED
+Statement - total = 0,IE 11,,2018-02-14 17:25:06,2018-02-14 17:25:06,"0,001s",PASSED
+Statement - ok = 0,IE 11,,2018-02-14 17:25:06,2018-02-14 17:25:06,"0,001s",PASSED
+Statement - ko = 0,IE 11,,2018-02-14 17:25:06,2018-02-14 17:25:06,"0,001s",PASSED
+Statement - For (def element : maps),IE 11,,2018-02-14 17:25:06,2018-02-14 17:25:15,"9,195s",PASSED
+"Statement - println(""END TEST"")",IE 11,,2018-02-14 17:25:15,2018-02-14 17:25:15,"0,006s",PASSED
+"Statement - println(""> TOTALE:"" + total)",IE 11,,2018-02-14 17:25:15,2018-02-14 17:25:15,"0,000s",PASSED
+"Statement - println(""> OK:"" + ok)",IE 11,,2018-02-14 17:25:15,2018-02-14 17:25:15,"0,000s",PASSED
+"Statement - println(""> KO:"" + ko)",IE 11,,2018-02-14 17:25:15,2018-02-14 17:25:15,"0,001s",PASSED
+,,,,,,
+Test Cases/DashboardTransportFilter,IE 11,,2018-02-14 17:25:15,2018-02-14 17:25:34,"18,132s",PASSED
+Statement - select_status = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/transferStatusCLICK),IE 11,,2018-02-14 17:25:16,2018-02-14 17:25:16,"0,015s",PASSED
+"Statement - optionMap = [""SUBMITTED"":""li_SUBMITTED"", ""SUSPENDED"":""li_SUSPENDED"", ""RESUMED"":""li_RESUMED"", ""STARTED"":""li_STARTED"", ""STARTED_RETRY"":""li_STARTED_RETRY"", ... ]",IE 11,,2018-02-14 17:25:16,2018-02-14 17:25:16,"0,000s",PASSED
+"Statement - optionMap.each({ java.lang.Object optionIndex, java.lang.Object optionsValue -> ... })",IE 11,,2018-02-14 17:25:16,2018-02-14 17:25:30,"14,210s",PASSED
+click,IE 11,,2018-02-14 17:25:30,2018-02-14 17:25:31,"1,101s",PASSED
+click,IE 11,,2018-02-14 17:25:31,2018-02-14 17:25:32,"1,052s",PASSED
+Statement - btn_clear = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter),IE 11,,2018-02-14 17:25:32,2018-02-14 17:25:32,"0,001s",PASSED
+Statement - btn_apply = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter),IE 11,,2018-02-14 17:25:32,2018-02-14 17:25:32,"0,016s",PASSED
+Statement - input_transferStatus = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus),IE 11,,2018-02-14 17:25:32,2018-02-14 17:25:32,"0,001s",PASSED
+click,IE 11,,2018-02-14 17:25:32,2018-02-14 17:25:34,"1,245s",PASSED

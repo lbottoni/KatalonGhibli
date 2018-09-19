@@ -1,0 +1,36 @@
+1
+00:00:00,169 --> 00:00:00,170
+1. Statement - select_status = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/transferStatusCLICK)
+
+2
+00:00:00,181 --> 00:00:00,182
+5. Statement - optionMap = ["SUBMITTED":"li_SUBMITTED", "SUSPENDED":"li_SUSPENDED", "RESUMED":"li_RESUMED", "STARTED":"li_STARTED", "STARTED_RETRY":"li_STARTED_RETRY", ... ]
+
+3
+00:00:00,187 --> 00:00:00,188
+9. Statement - optionMap.each({ java.lang.Object optionIndex, java.lang.Object optionsValue -> ... })
+
+4
+00:00:03,157 --> 00:00:03,157
+13. click
+
+5
+00:00:03,389 --> 00:00:03,390
+17. click
+
+6
+00:00:03,626 --> 00:00:03,626
+21. Statement - btn_clear = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter)
+
+7
+00:00:03,639 --> 00:00:03,639
+25. Statement - btn_apply = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter)
+
+8
+00:00:03,647 --> 00:00:03,648
+29. Statement - input_transferStatus = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus)
+
+9
+00:00:03,658 --> 00:00:03,659
+33. click
+

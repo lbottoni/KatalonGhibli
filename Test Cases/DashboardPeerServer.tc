@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DashboardPeerServer</name>
+   <tag></tag>
+   <comment>verifiche sul container del cluster
+inizia la verifica sul primo server nella lista dei peer
+controllo sul primo server del primo peer</comment>
+   <testCaseGuid>901cb91a-19b3-4703-86fb-097ddd9b3d74</testCaseGuid>
+</TestCaseEntity>

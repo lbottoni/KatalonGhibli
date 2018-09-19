@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SuiteGhibli" time="39" tests="3" failures="0" errors="0">
+   <testsuite name="SuiteGhibli" tests="3" failures="0" errors="0" time="39" timestamp="2018-02-14 17:42:47" hostname="luca.bottoni - LAP-PC-122.primeurad.com" id="Test Suites/SuiteGhibli">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180214_174233"/>
+         <property name="logFiles" value="C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180214_174233\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="luca.bottoni - LAP-PC-122.primeurad.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="169.254.92.146"/>
+         <property name="sessionId" value="bb2263ed-cc4c-43a8-a8be-6fe2727b775a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2018-02-14 17:42:49 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-02-14 17:42:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://ghibli-distro.localhost/'
+
+2018-02-14 17:43:10 - [MESSAGE][PASSED] - Browser is opened with url: 'http://ghibli-distro.localhost/'
+
+2018-02-14 17:43:10 - [TEST_STEP][PASSED] - Statement - input_login = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_username): Finding Test Object with id 'Object Repository/GhibliLoginPage/input_username'
+
+2018-02-14 17:43:10 - [TEST_STEP][PASSED] - Statement - input_pwd = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_password): Finding Test Object with id 'Object Repository/GhibliLoginPage/input_password'
+
+2018-02-14 17:43:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GhibliLoginPage/input_username' is present
+
+2018-02-14 17:43:10 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliLoginPage/input_username' is present
+
+2018-02-14 17:43:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GhibliLoginPage/input_password' is present
+
+2018-02-14 17:43:10 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliLoginPage/input_password' is present
+
+2018-02-14 17:43:10 - [TEST_STEP][PASSED] - setText: Text 'ghibliXXXX' is set on object 'Object Repository/GhibliLoginPage/input_username'
+
+2018-02-14 17:43:11 - [MESSAGE][PASSED] - Text 'ghibliXXXX' is set on object 'Object Repository/GhibliLoginPage/input_username'
+
+2018-02-14 17:43:11 - [TEST_STEP][PASSED] - setText: Text 'ghibliXXXX' is set on object 'Object Repository/GhibliLoginPage/input_password'
+
+2018-02-14 17:43:11 - [MESSAGE][PASSED] - Text 'ghibliXXXX' is set on object 'Object Repository/GhibliLoginPage/input_password'
+
+2018-02-14 17:43:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-14 17:43:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-14 17:43:13 - [TEST_STEP][PASSED] - Statement - text1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/div_Incorrect Username or Pass)): Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is NOT visible
+
+2018-02-14 17:43:13 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is NOT visible
+
+2018-02-14 17:43:13 - [TEST_STEP][PASSED] - Statement - assert text1 == true: null
+
+2018-02-14 17:43:13 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/GhibliLoginPage/LoginButton' is double clicked on
+
+2018-02-14 17:43:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliLoginPage/LoginButton' is double clicked on
+
+2018-02-14 17:43:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-14 17:43:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-14 17:43:15 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is present
+
+2018-02-14 17:43:15 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is present
+
+2018-02-14 17:43:15 - [TEST_STEP][PASSED] - Statement - text2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent("Incorrect Username or Password", false): Text 'Incorrect Username or Password' is present on page 
+
+2018-02-14 17:43:15 - [MESSAGE][PASSED] - Text 'Incorrect Username or Password' is present on page 
+
+2018-02-14 17:43:15 - [TEST_STEP][PASSED] - Statement - assert text2 == true: null
+
+2018-02-14 17:43:15 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/GhibliLoginPage/input_username' is focused
+
+2018-02-14 17:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliLoginPage/input_username' is focused
+
+2018-02-14 17:43:15 - [TEST_STEP][PASSED] - setText: Text 'luca.bottoni' is set on object 'Object Repository/GhibliLoginPage/input_username'
+
+2018-02-14 17:43:15 - [MESSAGE][PASSED] - Text 'luca.bottoni' is set on object 'Object Repository/GhibliLoginPage/input_username'
+
+2018-02-14 17:43:15 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/GhibliLoginPage/input_password' is focused
+
+2018-02-14 17:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliLoginPage/input_password' is focused
+
+2018-02-14 17:43:16 - [TEST_STEP][PASSED] - setText: Text 'N.azionale' is set on object 'Object Repository/GhibliLoginPage/input_password'
+
+2018-02-14 17:43:16 - [MESSAGE][PASSED] - Text 'N.azionale' is set on object 'Object Repository/GhibliLoginPage/input_password'
+
+2018-02-14 17:43:16 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/GhibliLoginPage/input_password'
+
+2018-02-14 17:43:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/GhibliLoginPage/input_password'
+
+2018-02-14 17:43:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-02-14 17:43:17 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard" classname="Test Cases/Dashboard" status="PASSED">
+         <system-out><![CDATA[2018-02-14 17:43:17 - [TEST_CASE][PASSED] - Test Cases/Dashboard: Test Cases/Dashboard
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - maps = [com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_sourceQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_destinationQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_correlationID), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflowdashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflow), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_transfersearch), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_setting), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_monitordashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_logout), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter)]: Finding Test Object with id 'Object Repository/GhibliDashboard/btn_applyfilter'
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - total = 0: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - ok = 0: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - ko = 0: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - For (def element : maps): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - test = false: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1): Object 'Object Repository/GhibliDashboard/input_transferStatus' is present
+
+2018-02-14 17:43:17 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/input_transferStatus' is present
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - If (test == true): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - (ok++): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - assert test == true: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - (total++): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - test = false: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1): Object 'Object Repository/GhibliDashboard/input_sourceQueueManager' is present
+
+2018-02-14 17:43:17 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/input_sourceQueueManager' is present
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - If (test == true): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - (ok++): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - assert test == true: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - (total++): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - test = false: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1): Object 'Object Repository/GhibliDashboard/input_destinationQueueManager' is present
+
+2018-02-14 17:43:17 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/input_destinationQueueManager' is present
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - If (test == true): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - (ok++): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - assert test == true: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - (total++): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - test = false: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1): Object 'Object Repository/GhibliDashboard/input_correlationID' is present
+
+2018-02-14 17:43:17 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/input_correlationID' is present
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - If (test == true): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - (ok++): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - assert test == true: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - (total++): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - test = false: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1): Object 'Object Repository/GhibliDashboard/btn_workflowdashboard' is present
+
+2018-02-14 17:43:17 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/btn_workflowdashboard' is present
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - If (test == true): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - (ok++): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - assert test == true: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - (total++): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - test = false: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1): Object 'Object Repository/GhibliDashboard/btn_workflow' is present
+
+2018-02-14 17:43:17 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/btn_workflow' is present
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - If (test == true): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - (ok++): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - assert test == true: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - (total++): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - test = false: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1): Object 'Object Repository/GhibliDashboard/btn_transfersearch' is present
+
+2018-02-14 17:43:17 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/btn_transfersearch' is present
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - If (test == true): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - (ok++): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - assert test == true: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - (total++): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - test = false: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1): Object 'Object Repository/GhibliDashboard/btn_setting' is present
+
+2018-02-14 17:43:17 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/btn_setting' is present
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - If (test == true): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - (ok++): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - assert test == true: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - (total++): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - test = false: null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1): Object 'Object Repository/GhibliDashboard/btn_monitordashboard' is present
+
+2018-02-14 17:43:17 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/btn_monitordashboard' is present
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - If (test == true): null
+
+2018-02-14 17:43:17 - [TEST_STEP][PASSED] - Statement - (ok++): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - assert test == true: null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - (total++): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - test = false: null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1): Object 'Object Repository/GhibliDashboard/btn_logout' is present
+
+2018-02-14 17:43:18 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/btn_logout' is present
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - If (test == true): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - (ok++): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - assert test == true: null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - (total++): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - test = false: null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1): Object 'Object Repository/GhibliDashboard/btn_clearfilter' is present
+
+2018-02-14 17:43:18 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/btn_clearfilter' is present
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - If (test == true): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - (ok++): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - assert test == true: null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - (total++): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - test = false: null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1): Object 'Object Repository/GhibliDashboard/btn_applyfilter' is present
+
+2018-02-14 17:43:18 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/btn_applyfilter' is present
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - If (test == true): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - (ok++): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - assert test == true: null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - (total++): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - println("END TEST"): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - println("> TOTALE:" + total): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - println("> OK:" + ok): null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - println("> KO:" + ko): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DashboardTransportFilter" classname="Test Cases/DashboardTransportFilter" status="PASSED">
+         <system-out><![CDATA[2018-02-14 17:43:18 - [TEST_CASE][PASSED] - Test Cases/DashboardTransportFilter: Test Cases/DashboardTransportFilter
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - select_status = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/transferStatusCLICK): Finding Test Object with id 'Object Repository/GhibliDashboard/transferStatusCLICK'
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - optionMap = ["SUBMITTED":"li_SUBMITTED", "SUSPENDED":"li_SUSPENDED", "RESUMED":"li_RESUMED", "STARTED":"li_STARTED", "STARTED_RETRY":"li_STARTED_RETRY", ... ]: null
+
+2018-02-14 17:43:18 - [TEST_STEP][PASSED] - Statement - optionMap.each({ java.lang.Object optionIndex, java.lang.Object optionsValue -> ... }): Object: 'Object Repository/GhibliDashboard/transferStatusOptions/li_FAILED_RETRY' is clicked on
+
+2018-02-14 17:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusCLICK' is clicked on
+
+2018-02-14 17:43:18 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/transferStatusOptions/li_SUBMITTED' is present
+
+2018-02-14 17:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusOptions/li_SUBMITTED' is clicked on
+
+2018-02-14 17:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusCLICK' is clicked on
+
+2018-02-14 17:43:19 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/transferStatusOptions/li_SUSPENDED' is present
+
+2018-02-14 17:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusOptions/li_SUSPENDED' is clicked on
+
+2018-02-14 17:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusCLICK' is clicked on
+
+2018-02-14 17:43:19 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/transferStatusOptions/li_RESUMED' is present
+
+2018-02-14 17:43:20 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusOptions/li_RESUMED' is clicked on
+
+2018-02-14 17:43:20 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusCLICK' is clicked on
+
+2018-02-14 17:43:20 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/transferStatusOptions/li_STARTED' is present
+
+2018-02-14 17:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusOptions/li_STARTED' is clicked on
+
+2018-02-14 17:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusCLICK' is clicked on
+
+2018-02-14 17:43:21 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/transferStatusOptions/li_STARTED_RETRY' is present
+
+2018-02-14 17:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusOptions/li_STARTED_RETRY' is clicked on
+
+2018-02-14 17:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusCLICK' is clicked on
+
+2018-02-14 17:43:22 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/transferStatusOptions/li_FAILED_RETRY' is present
+
+2018-02-14 17:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusOptions/li_FAILED_RETRY' is clicked on
+
+2018-02-14 17:43:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GhibliDashboard/transferStatusCLICK' is clicked on
+
+2018-02-14 17:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusCLICK' is clicked on
+
+2018-02-14 17:43:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GhibliDashboard/transferStatusOptions/li_STARTED' is clicked on
+
+2018-02-14 17:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusOptions/li_STARTED' is clicked on
+
+2018-02-14 17:43:22 - [TEST_STEP][PASSED] - Statement - btn_clear = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter): Finding Test Object with id 'Object Repository/GhibliDashboard/btn_clearfilter'
+
+2018-02-14 17:43:22 - [TEST_STEP][PASSED] - Statement - btn_apply = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter): Finding Test Object with id 'Object Repository/GhibliDashboard/btn_applyfilter'
+
+2018-02-14 17:43:22 - [TEST_STEP][PASSED] - Statement - input_transferStatus = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus): Finding Test Object with id 'Object Repository/GhibliDashboard/input_transferStatus'
+
+2018-02-14 17:43:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GhibliDashboard/btn_clearfilter' is clicked on
+
+2018-02-14 17:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/btn_clearfilter' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-14 17:42:47 - [TEST_SUITE][PASSED] - SuiteGhibli: Test Cases/DashboardTransportFilter]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

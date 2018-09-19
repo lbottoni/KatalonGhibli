@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lbl_peerlist_clustername</name>
+   <tag></tag>
+   <elementGuidId>ec9bf8fd-a292-44f0-afdf-d0b2be5f6d9c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[contains(@class,&quot;kt_peerlist_clustername&quot;)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[contains(@class,&quot;kt_peerlist_clustername&quot;)]</value>
+   </webElementProperties>
+</WebElementEntity>

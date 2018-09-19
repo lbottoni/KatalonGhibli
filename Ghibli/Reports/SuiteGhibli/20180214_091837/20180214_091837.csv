@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SuiteGhibli,,,2018-02-14 09:18:49,2018-02-14 09:19:22,"33,643s",ERROR
+,,,,,,
+Test Cases/Login,,,2018-02-14 09:18:49,2018-02-14 09:19:22,"32,468s",ERROR
+openBrowser,,,2018-02-14 09:18:50,2018-02-14 09:18:51,"1,643s",PASSED
+waitForPageLoad,,,2018-02-14 09:18:52,2018-02-14 09:19:22,"30,117s",PASSED
+,,,,,,
+Test Cases/Dashboard,,,2018-02-14 09:19:22,2018-02-14 09:19:22,"0,505s",ERROR
+"Statement - maps = [com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_sourceQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_destinationQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_correlationID), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflowdashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflow), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_transfersearch), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_setting), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_monitordashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_logout), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter)]",,,2018-02-14 09:19:22,2018-02-14 09:19:22,"0,078s",PASSED
+Statement - total = 0,,,2018-02-14 09:19:22,2018-02-14 09:19:22,"0,002s",PASSED
+Statement - ok = 0,,,2018-02-14 09:19:22,2018-02-14 09:19:22,"0,000s",PASSED
+Statement - ko = 0,,,2018-02-14 09:19:22,2018-02-14 09:19:22,"0,000s",PASSED
+Statement - For (def element : maps),,,2018-02-14 09:19:22,2018-02-14 09:19:22,"0,080s",PASSED

@@ -1,0 +1,84 @@
+1
+00:00:00,457 --> 00:00:00,458
+1. Statement - input_login = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_username)
+
+2
+00:00:00,486 --> 00:00:00,486
+5. Statement - input_pwd = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_password)
+
+3
+00:00:00,514 --> 00:00:00,516
+9. verifyElementPresent
+
+4
+00:00:00,678 --> 00:00:00,678
+13. verifyElementPresent
+
+5
+00:00:00,780 --> 00:00:00,780
+17. setText
+
+6
+00:00:01,558 --> 00:00:01,560
+21. setText
+
+7
+00:00:02,126 --> 00:00:02,127
+25. delay
+
+8
+00:00:04,198 --> 00:00:04,198
+29. Statement - text1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/div_Incorrect Username or Pass))
+
+9
+00:00:04,355 --> 00:00:04,355
+33. Statement - assert text1 == true
+
+10
+00:00:04,371 --> 00:00:04,371
+37. doubleClick
+
+11
+00:00:04,781 --> 00:00:04,784
+41. delay
+
+12
+00:00:06,797 --> 00:00:06,801
+45. waitForElementPresent
+
+13
+00:00:06,846 --> 00:00:06,846
+49. Statement - text2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent("Incorrect Username or Password", false)
+
+14
+00:00:07,287 --> 00:00:07,289
+53. Statement - assert text2 == true
+
+15
+00:00:07,289 --> 00:00:07,297
+57. focus
+
+16
+00:00:07,581 --> 00:00:07,583
+61. setText
+
+17
+00:00:08,260 --> 00:00:08,261
+65. delay
+
+18
+00:00:09,283 --> 00:00:09,289
+69. focus
+
+19
+00:00:09,426 --> 00:00:09,426
+73. setText
+
+20
+00:00:09,726 --> 00:00:09,727
+77. delay
+
+21
+00:00:10,751 --> 00:00:10,751
+81. sendKeys
+

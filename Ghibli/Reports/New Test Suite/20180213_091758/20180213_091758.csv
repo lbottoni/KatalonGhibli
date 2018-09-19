@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Firefox 57.0,,2018-02-13 09:18:09,2018-02-13 09:18:27,"17,775s",PASSED
+,,,,,,
+Test Cases/Login,Firefox 57.0,,2018-02-13 09:18:10,2018-02-13 09:18:27,"16,977s",PASSED
+openBrowser,Firefox 57.0,,2018-02-13 09:18:10,2018-02-13 09:18:20,"9,718s",PASSED
+waitForPageLoad,Firefox 57.0,,2018-02-13 09:18:20,2018-02-13 09:18:20,"0,145s",PASSED
+setText,Firefox 57.0,,2018-02-13 09:18:20,2018-02-13 09:18:21,"0,797s",PASSED
+setText,Firefox 57.0,,2018-02-13 09:18:21,2018-02-13 09:18:21,"0,111s",PASSED
+Statement - text1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/div_Incorrect Username or Pass)),Firefox 57.0,,2018-02-13 09:18:21,2018-02-13 09:18:21,"0,091s",PASSED
+Statement - assert text1 == true,Firefox 57.0,,2018-02-13 09:18:21,2018-02-13 09:18:21,"0,002s",PASSED
+doubleClick,Firefox 57.0,,2018-02-13 09:18:21,2018-02-13 09:18:22,"0,434s",PASSED
+waitForElementPresent,Firefox 57.0,,2018-02-13 09:18:22,2018-02-13 09:18:22,"0,085s",PASSED
+"Statement - text2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(""Incorrect Username or Password"", false)",Firefox 57.0,,2018-02-13 09:18:22,2018-02-13 09:18:22,"0,132s",PASSED
+Statement - assert text2 == true,Firefox 57.0,,2018-02-13 09:18:22,2018-02-13 09:18:22,"0,001s",PASSED
+setText,Firefox 57.0,,2018-02-13 09:18:22,2018-02-13 09:18:22,"0,093s",PASSED
+setText,Firefox 57.0,,2018-02-13 09:18:22,2018-02-13 09:18:22,"0,080s",PASSED
+click,Firefox 57.0,,2018-02-13 09:18:22,2018-02-13 09:18:22,"0,296s",PASSED
+delay,Firefox 57.0,,2018-02-13 09:18:22,2018-02-13 09:18:25,"3,039s",PASSED
+closeBrowser,Firefox 57.0,,2018-02-13 09:18:25,2018-02-13 09:18:27,"1,453s",PASSED
+,,,,,,
+Test Cases/Dashboard,Firefox 57.0,,2018-02-13 09:18:27,2018-02-13 09:18:27,"0,310s",PASSED
+"Statement - maps = [com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_sourceQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_destinationQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_correlationID), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflowdashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflow), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_transfersearch), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_setting), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_monitordashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_menu), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_logout), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter)]",Firefox 57.0,,2018-02-13 09:18:27,2018-02-13 09:18:27,"0,050s",PASSED
+Statement - c = 0,Firefox 57.0,,2018-02-13 09:18:27,2018-02-13 09:18:27,"0,007s",PASSED
+Statement - For (def element : maps),Firefox 57.0,,2018-02-13 09:18:27,2018-02-13 09:18:27,"0,041s",PASSED

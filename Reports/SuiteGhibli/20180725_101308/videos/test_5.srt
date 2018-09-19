@@ -1,0 +1,12 @@
+1
+00:00:00,171 --> 00:00:00,172
+1. Statement - select_status = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/transferStatusCLICK)
+
+2
+00:00:00,182 --> 00:00:00,183
+5. Statement - optionMap = ["SUBMITTED":"li_SUBMITTED", "SUSPENDED":"li_SUSPENDED", "RESUMED":"li_RESUMED", "STARTED":"li_STARTED", "STARTED_RETRY":"li_STARTED_RETRY", ... ]
+
+3
+00:00:00,188 --> 00:00:00,189
+9. Statement - optionMap.each({ java.lang.Object optionIndex, java.lang.Object optionsValue -> ... })
+

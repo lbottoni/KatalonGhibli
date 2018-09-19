@@ -1,0 +1,48 @@
+1
+00:00:00,309 --> 00:00:00,309
+1. Statement - btn_dash = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(GhibliDashboard/btn_monitordashboard)
+
+2
+00:00:00,335 --> 00:00:00,336
+5. Statement - css = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(btn_dash, "class", STOP_ON_FAILURE)
+
+3
+00:00:00,417 --> 00:00:00,417
+9. Statement - isPressed = css.contains(btn_pressed)
+
+4
+00:00:00,430 --> 00:00:00,432
+13. Statement - If (isPressed == false)
+
+5
+00:00:00,445 --> 00:00:00,445
+17. verifyElementNotVisible
+
+6
+00:00:00,495 --> 00:00:00,496
+21. click
+
+7
+00:00:01,128 --> 00:00:01,128
+25. waitForElementPresent
+
+8
+00:00:01,163 --> 00:00:01,164
+29. verifyElementVisible
+
+9
+00:00:01,246 --> 00:00:01,246
+33. Statement - element = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SettingsMenu/Collection Tree Text), waitShort)
+
+10
+00:00:01,311 --> 00:00:01,312
+37. Statement - element.each({ java.lang.Object el -> ... })
+
+11
+00:00:01,589 --> 00:00:01,591
+41. Statement - elementQtip = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SettingsMenu/Collection Tree), 10)
+
+12
+00:00:01,631 --> 00:00:01,632
+45. Statement - elementQtip.each({ java.lang.Object elW -> ... })
+

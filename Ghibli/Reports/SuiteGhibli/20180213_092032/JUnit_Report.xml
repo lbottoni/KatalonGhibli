@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SuiteGhibli" time="15" tests="1" failures="1" errors="0">
+   <testsuite name="SuiteGhibli" tests="1" failures="1" errors="0" time="15" timestamp="2018-02-13 09:20:44" hostname="luca.bottoni - LAP-PC-122.primeurad.com" id="Test Suites/SuiteGhibli">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180213_092032"/>
+         <property name="logFiles" value="C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180213_092032\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180213_092032\\1518510057331.png"/>
+         <property name="hostName" value="luca.bottoni - LAP-PC-122.primeurad.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="169.254.92.146"/>
+         <property name="sessionId" value="51096153-c615-4b2a-aa72-bd5e02a71d87"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Incorrect Username or Password' is present  (Root cause: Text 'Incorrect Username or Password' is not present on page )"/>
+         <system-out><![CDATA[2018-02-13 09:20:44 - [TEST_CASE][FAILED] - Test Cases/Login: Test Cases/Login FAILED because (of) Unable to verify text 'Incorrect Username or Password' is present  (Root cause: Text 'Incorrect Username or Password' is not present on page )
+
+2018-02-13 09:20:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://ghibli-distro.localhost/'
+
+2018-02-13 09:20:55 - [MESSAGE][PASSED] - Browser is opened with url: 'http://ghibli-distro.localhost/'
+
+2018-02-13 09:20:55 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-02-13 09:20:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-02-13 09:20:55 - [TEST_STEP][PASSED] - setText: Text 'ghibliXXXX' is set on object 'Object Repository/GhibliLoginPage/input_username'
+
+2018-02-13 09:20:56 - [MESSAGE][PASSED] - Text 'ghibliXXXX' is set on object 'Object Repository/GhibliLoginPage/input_username'
+
+2018-02-13 09:20:56 - [TEST_STEP][PASSED] - setText: Text 'ghibliXXXX' is set on object 'Object Repository/GhibliLoginPage/input_password'
+
+2018-02-13 09:20:56 - [MESSAGE][PASSED] - Text 'ghibliXXXX' is set on object 'Object Repository/GhibliLoginPage/input_password'
+
+2018-02-13 09:20:56 - [TEST_STEP][PASSED] - Statement - text1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/div_Incorrect Username or Pass)): Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is NOT visible
+
+2018-02-13 09:20:56 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is NOT visible
+
+2018-02-13 09:20:56 - [TEST_STEP][PASSED] - Statement - assert text1 == true: null
+
+2018-02-13 09:20:56 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/GhibliLoginPage/LoginButton' is double clicked on
+
+2018-02-13 09:20:57 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliLoginPage/LoginButton' is double clicked on
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is present
+
+2018-02-13 09:20:57 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is present
+
+2018-02-13 09:20:57 - [TEST_STEP][FAILED] - Statement - text2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent("Incorrect Username or Password", false): Unable to verify text 'Incorrect Username or Password' is present  (Root cause: Text 'Incorrect Username or Password' is not present on page )
+
+2018-02-13 09:20:57 - [MESSAGE][FAILED] - Text 'Incorrect Username or Password' is not present on page 
+
+2018-02-13 09:20:57 - [MESSAGE][FAILED] - Unable to verify text 'Incorrect Username or Password' is present  (Root cause: Text 'Incorrect Username or Password' is not present on page )
+[[ATTACHMENT|C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180213_092032\\1518510057331.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-13 09:20:44 - [TEST_CASE][FAILED] - Test Cases/Login: Test Cases/Login FAILED because (of) Unable to verify text 'Incorrect Username or Password' is present  (Root cause: Text 'Incorrect Username or Password' is not present on page )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard" classname="Test Cases/Dashboard" status="PASSED">
+         <system-out><![CDATA[2018-02-13 09:20:57 - [TEST_CASE][PASSED] - Test Cases/Dashboard: Test Cases/Dashboard
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - maps = [com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_sourceQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_destinationQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_correlationID), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflowdashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflow), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_transfersearch), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_setting), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_monitordashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_menu), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_logout), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter)]: Finding Test Object with id 'Object Repository/GhibliDashboard/btn_applyfilter'
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - c = 0: null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - For (def element : maps): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - println(">>> >>> >>> Element[" + c + "] <<< <<< <<<"): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - println(">>> >>> >>> Element[" + c + "] <<< <<< <<<"): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - println(">>> >>> >>> Element[" + c + "] <<< <<< <<<"): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - println(">>> >>> >>> Element[" + c + "] <<< <<< <<<"): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - println(">>> >>> >>> Element[" + c + "] <<< <<< <<<"): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - println(">>> >>> >>> Element[" + c + "] <<< <<< <<<"): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - println(">>> >>> >>> Element[" + c + "] <<< <<< <<<"): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - println(">>> >>> >>> Element[" + c + "] <<< <<< <<<"): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - println(">>> >>> >>> Element[" + c + "] <<< <<< <<<"): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - println(">>> >>> >>> Element[" + c + "] <<< <<< <<<"): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - println(">>> >>> >>> Element[" + c + "] <<< <<< <<<"): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - println(">>> >>> >>> Element[" + c + "] <<< <<< <<<"): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - println(">>> >>> >>> Element[" + c + "] <<< <<< <<<"): null
+
+2018-02-13 09:20:57 - [TEST_STEP][PASSED] - Statement - (c++): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-13 09:20:44 - [TEST_SUITE][FAILED] - SuiteGhibli: Test Cases/Login FAILED because (of) Unable to verify text 'Incorrect Username or Password' is present  (Root cause: Text 'Incorrect Username or Password' is not present on page )]]></system-out>
+      <system-err><![CDATA[2018-02-13 09:20:44 - [TEST_SUITE][FAILED] - SuiteGhibli: Test Cases/Login FAILED because (of) Unable to verify text 'Incorrect Username or Password' is present  (Root cause: Text 'Incorrect Username or Password' is not present on page )]]></system-err>
+   </testsuite>
+</testsuites>

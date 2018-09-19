@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SuiteGhibli" time="33" tests="0" failures="0" errors="2">
+   <testsuite name="SuiteGhibli" tests="0" failures="0" errors="2" time="33" timestamp="2018-02-14 09:18:49" hostname="luca.bottoni - LAP-PC-122.primeurad.com" id="Test Suites/SuiteGhibli">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180214_091837"/>
+         <property name="logFiles" value="C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180214_091837\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="luca.bottoni - LAP-PC-122.primeurad.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value=""/>
+         <property name="hostAddress" value="169.254.92.146"/>
+         <property name="sessionId" value="2ebbface-ff30-44b5-9d82-82743b4a0f62"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login FAILED because (of) java.lang.RuntimeException: Unexpected result for screenshot command: com.google.common.collect.Maps$TransformedEntriesMap instance"/>
+         <system-out><![CDATA[2018-02-14 09:18:49 - [TEST_CASE][ERROR] - Test Cases/Login: Test Cases/Login FAILED because (of) java.lang.RuntimeException: Unexpected result for screenshot command: com.google.common.collect.Maps$TransformedEntriesMap instance
+
+2018-02-14 09:18:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://ghibli-distro.localhost/'
+
+2018-02-14 09:18:51 - [MESSAGE][PASSED] - Browser is opened with url: 'http://ghibli-distro.localhost/'
+
+2018-02-14 09:18:52 - [TEST_STEP][PASSED] - waitForPageLoad: Checking timeout]]></system-out>
+         <system-err><![CDATA[2018-02-14 09:18:49 - [TEST_CASE][ERROR] - Test Cases/Login: Test Cases/Login FAILED because (of) java.lang.RuntimeException: Unexpected result for screenshot command: com.google.common.collect.Maps$TransformedEntriesMap instance]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard" classname="Test Cases/Dashboard" status="ERROR">
+         <error type="ERROR" message="Test Cases/Dashboard FAILED because (of) java.lang.RuntimeException: Unexpected result for screenshot command: com.google.common.collect.Maps$TransformedEntriesMap instance"/>
+         <system-out><![CDATA[2018-02-14 09:19:22 - [TEST_CASE][ERROR] - Test Cases/Dashboard: Test Cases/Dashboard FAILED because (of) java.lang.RuntimeException: Unexpected result for screenshot command: com.google.common.collect.Maps$TransformedEntriesMap instance
+
+2018-02-14 09:19:22 - [TEST_STEP][PASSED] - Statement - maps = [com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_sourceQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_destinationQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_correlationID), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflowdashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflow), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_transfersearch), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_setting), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_monitordashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_logout), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter)]: Finding Test Object with id 'Object Repository/GhibliDashboard/btn_applyfilter'
+
+2018-02-14 09:19:22 - [TEST_STEP][PASSED] - Statement - total = 0: null
+
+2018-02-14 09:19:22 - [TEST_STEP][PASSED] - Statement - ok = 0: null
+
+2018-02-14 09:19:22 - [TEST_STEP][PASSED] - Statement - ko = 0: null
+
+2018-02-14 09:19:22 - [TEST_STEP][PASSED] - Statement - For (def element : maps): Finding web element with id: 'Object Repository/GhibliDashboard/input_transferStatus' located by 'By.xpath: //input[@name = 'transferStatus']' in '1' second(s)
+
+2018-02-14 09:19:22 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-14 09:19:22 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-14 09:19:22 - [TEST_STEP][PASSED] - Statement - test = false: null
+
+2018-02-14 09:19:22 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-14 09:19:22 - [TEST_STEP][PASSED] - Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1): Finding web element with id: 'Object Repository/GhibliDashboard/input_transferStatus' located by 'By.xpath: //input[@name = 'transferStatus']' in '1' second(s)]]></system-out>
+         <system-err><![CDATA[2018-02-14 09:19:22 - [TEST_CASE][ERROR] - Test Cases/Dashboard: Test Cases/Dashboard FAILED because (of) java.lang.RuntimeException: Unexpected result for screenshot command: com.google.common.collect.Maps$TransformedEntriesMap instance]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-14 09:18:49 - [TEST_SUITE][ERROR] - SuiteGhibli: Test Cases/Login FAILED because (of) java.lang.RuntimeException: Unexpected result for screenshot command: com.google.common.collect.Maps$TransformedEntriesMap instance]]></system-out>
+      <system-err><![CDATA[2018-02-14 09:18:49 - [TEST_SUITE][ERROR] - SuiteGhibli: Test Cases/Login FAILED because (of) java.lang.RuntimeException: Unexpected result for screenshot command: com.google.common.collect.Maps$TransformedEntriesMap instance]]></system-err>
+   </testsuite>
+</testsuites>

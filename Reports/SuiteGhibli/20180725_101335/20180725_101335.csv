@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SuiteGhibli,,,2018-07-25 10:13:37,2018-07-25 10:13:56,"19,328s",FAILED
+,,,,,,
+Test Cases/OpenBrowser,,,2018-07-25 10:13:37,2018-07-25 10:13:42,"4,802s",FAILED
+openBrowser,,,2018-07-25 10:13:37,2018-07-25 10:13:40,"2,333s",FAILED
+,,,,,,
+Test Cases/Login,,,2018-07-25 10:13:42,2018-07-25 10:13:44,"2,343s",FAILED
+Statement - input_login = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_username),,,2018-07-25 10:13:42,2018-07-25 10:13:42,"0,029s",PASSED
+Statement - input_pwd = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_password),,,2018-07-25 10:13:42,2018-07-25 10:13:42,"0,011s",PASSED
+verifyElementPresent,,,2018-07-25 10:13:42,2018-07-25 10:13:42,"0,025s",FAILED
+,,,,,,
+Test Cases/Dashboard,,,2018-07-25 10:13:44,2018-07-25 10:13:46,"2,335s",FAILED
+"Statement - maps = [com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_sourceQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_destinationQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_correlationID), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflowdashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflow), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_transfersearch), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_setting), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_monitordashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_logout), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter)]",,,2018-07-25 10:13:44,2018-07-25 10:13:44,"0,067s",PASSED
+Statement - total = 0,,,2018-07-25 10:13:44,2018-07-25 10:13:44,"0,009s",PASSED
+Statement - ok = 0,,,2018-07-25 10:13:44,2018-07-25 10:13:44,"0,007s",PASSED
+Statement - ko = 0,,,2018-07-25 10:13:44,2018-07-25 10:13:44,"0,008s",PASSED
+Statement - For (def element : maps),,,2018-07-25 10:13:44,2018-07-25 10:13:44,"0,074s",FAILED
+,,,,,,
+Test Cases/DashboardPeerServer,,,2018-07-25 10:13:46,2018-07-25 10:13:49,"2,261s",FAILED
+comment,,,2018-07-25 10:13:47,2018-07-25 10:13:47,"0,028s",PASSED
+waitForElementVisible,,,2018-07-25 10:13:47,2018-07-25 10:13:47,"0,039s",FAILED
+,,,,,,
+Test Cases/DashboardTransportFilter,,,2018-07-25 10:13:49,2018-07-25 10:13:51,"2,263s",FAILED
+Statement - select_status = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/transferStatusCLICK),,,2018-07-25 10:13:49,2018-07-25 10:13:49,"0,010s",PASSED
+"Statement - optionMap = [""SUBMITTED"":""li_SUBMITTED"", ""SUSPENDED"":""li_SUSPENDED"", ""RESUMED"":""li_RESUMED"", ""STARTED"":""li_STARTED"", ""STARTED_RETRY"":""li_STARTED_RETRY"", ... ]",,,2018-07-25 10:13:49,2018-07-25 10:13:49,"0,006s",PASSED
+"Statement - optionMap.each({ java.lang.Object optionIndex, java.lang.Object optionsValue -> ... })",,,2018-07-25 10:13:49,2018-07-25 10:13:49,"0,020s",FAILED
+,,,,,,
+Test Cases/MenuSettings,,,2018-07-25 10:13:51,2018-07-25 10:13:53,"2,259s",FAILED
+Statement - btn_dash = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(GhibliDashboard/btn_monitordashboard),,,2018-07-25 10:13:51,2018-07-25 10:13:51,"0,012s",PASSED
+"Statement - css = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(btn_dash, ""class"", STOP_ON_FAILURE)",,,2018-07-25 10:13:51,2018-07-25 10:13:51,"0,022s",FAILED
+,,,,,,
+Test Cases/Logout,,,2018-07-25 10:13:53,2018-07-25 10:13:55,"2,181s",FAILED
+Statement - test = false,,,2018-07-25 10:13:53,2018-07-25 10:13:53,"0,007s",PASSED
+"Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(GhibliDashboard/btn_logout), 1)",,,2018-07-25 10:13:53,2018-07-25 10:13:53,"0,023s",FAILED

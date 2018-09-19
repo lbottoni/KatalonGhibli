@@ -1,0 +1,8 @@
+1
+00:00:00,175 --> 00:00:00,176
+1. Statement - btn_dash = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(GhibliDashboard/btn_monitordashboard)
+
+2
+00:00:00,188 --> 00:00:00,189
+5. Statement - css = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(btn_dash, "class", STOP_ON_FAILURE)
+

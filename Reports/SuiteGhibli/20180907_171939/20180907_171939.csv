@@ -1,0 +1,83 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SuiteGhibli,Chrome 69.0.3497.81,,2018-09-07 17:19:41,2018-09-07 17:20:55,"1m - 13,775s",FAILED
+,,,,,,
+Test Cases/OpenBrowser,Chrome 69.0.3497.81,,2018-09-07 17:19:42,2018-09-07 17:19:52,"10,608s",PASSED
+openBrowser,Chrome 69.0.3497.81,,2018-09-07 17:19:42,2018-09-07 17:19:46,"3,594s",PASSED
+maximizeWindow,Chrome 69.0.3497.81,,2018-09-07 17:19:46,2018-09-07 17:19:47,"1,244s",PASSED
+navigateToUrl,Chrome 69.0.3497.81,,2018-09-07 17:19:47,2018-09-07 17:19:50,"2,843s",PASSED
+waitForElementPresent,Chrome 69.0.3497.81,,2018-09-07 17:19:50,2018-09-07 17:19:50,"0,243s",PASSED
+,,,,,,
+Test Cases/Login,Chrome 69.0.3497.81,,2018-09-07 17:19:52,2018-09-07 17:20:02,"9,999s",PASSED
+Statement - input_login = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_username),Chrome 69.0.3497.81,,2018-09-07 17:19:53,2018-09-07 17:19:53,"0,028s",PASSED
+Statement - input_pwd = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_password),Chrome 69.0.3497.81,,2018-09-07 17:19:53,2018-09-07 17:19:53,"0,018s",PASSED
+verifyElementPresent,Chrome 69.0.3497.81,,2018-09-07 17:19:53,2018-09-07 17:19:53,"0,042s",PASSED
+verifyElementPresent,Chrome 69.0.3497.81,,2018-09-07 17:19:53,2018-09-07 17:19:53,"0,032s",PASSED
+setText,Chrome 69.0.3497.81,,2018-09-07 17:19:53,2018-09-07 17:19:53,"0,200s",PASSED
+setText,Chrome 69.0.3497.81,,2018-09-07 17:19:53,2018-09-07 17:19:53,"0,147s",PASSED
+delay,Chrome 69.0.3497.81,,2018-09-07 17:19:53,2018-09-07 17:19:55,"2,038s",PASSED
+Statement - text1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/div_Incorrect Username or Pass)),Chrome 69.0.3497.81,,2018-09-07 17:19:55,2018-09-07 17:19:55,"0,081s",PASSED
+Statement - assert text1 == true,Chrome 69.0.3497.81,,2018-09-07 17:19:55,2018-09-07 17:19:55,"0,011s",PASSED
+doubleClick,Chrome 69.0.3497.81,,2018-09-07 17:19:55,2018-09-07 17:19:55,"0,160s",PASSED
+delay,Chrome 69.0.3497.81,,2018-09-07 17:19:55,2018-09-07 17:19:57,"2,014s",PASSED
+waitForElementPresent,Chrome 69.0.3497.81,,2018-09-07 17:19:57,2018-09-07 17:19:57,"0,039s",PASSED
+"Statement - text2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(""Incorrect Username or Password"", false)",Chrome 69.0.3497.81,,2018-09-07 17:19:57,2018-09-07 17:19:58,"0,086s",PASSED
+Statement - assert text2 == true,Chrome 69.0.3497.81,,2018-09-07 17:19:58,2018-09-07 17:19:58,"0,006s",PASSED
+focus,Chrome 69.0.3497.81,,2018-09-07 17:19:58,2018-09-07 17:19:58,"0,076s",PASSED
+setText,Chrome 69.0.3497.81,,2018-09-07 17:19:58,2018-09-07 17:19:58,"0,135s",PASSED
+delay,Chrome 69.0.3497.81,,2018-09-07 17:19:58,2018-09-07 17:19:59,"1,009s",PASSED
+focus,Chrome 69.0.3497.81,,2018-09-07 17:19:59,2018-09-07 17:19:59,"0,076s",PASSED
+setText,Chrome 69.0.3497.81,,2018-09-07 17:19:59,2018-09-07 17:19:59,"0,119s",PASSED
+delay,Chrome 69.0.3497.81,,2018-09-07 17:19:59,2018-09-07 17:20:00,"1,013s",PASSED
+sendKeys,Chrome 69.0.3497.81,,2018-09-07 17:20:00,2018-09-07 17:20:00,"0,178s",PASSED
+,,,,,,
+Test Cases/Dashboard,Chrome 69.0.3497.81,,2018-09-07 17:20:02,2018-09-07 17:20:06,"3,969s",FAILED
+"Statement - maps = [com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_sourceQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_destinationQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_correlationID), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflowdashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflow), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_transfersearch), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_setting), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_monitordashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_logout), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter)]",Chrome 69.0.3497.81,,2018-09-07 17:20:03,2018-09-07 17:20:03,"0,087s",PASSED
+Statement - total = 0,Chrome 69.0.3497.81,,2018-09-07 17:20:03,2018-09-07 17:20:03,"0,008s",PASSED
+Statement - ok = 0,Chrome 69.0.3497.81,,2018-09-07 17:20:03,2018-09-07 17:20:03,"0,009s",PASSED
+Statement - ko = 0,Chrome 69.0.3497.81,,2018-09-07 17:20:03,2018-09-07 17:20:03,"0,007s",PASSED
+Statement - For (def element : maps),Chrome 69.0.3497.81,,2018-09-07 17:20:03,2018-09-07 17:20:04,"1,541s",PASSED
+,,,,,,
+Test Cases/DashboardPeerServer,Chrome 69.0.3497.81,,2018-09-07 17:20:06,2018-09-07 17:20:41,"34,573s",FAILED
+comment,Chrome 69.0.3497.81,,2018-09-07 17:20:06,2018-09-07 17:20:07,"0,017s",PASSED
+waitForElementVisible,Chrome 69.0.3497.81,,2018-09-07 17:20:07,2018-09-07 17:20:07,"0,079s",PASSED
+verifyElementVisible,Chrome 69.0.3497.81,,2018-09-07 17:20:07,2018-09-07 17:20:07,"0,057s",PASSED
+verifyElementVisible,Chrome 69.0.3497.81,,2018-09-07 17:20:07,2018-09-07 17:20:07,"0,051s",PASSED
+verifyElementVisible,Chrome 69.0.3497.81,,2018-09-07 17:20:07,2018-09-07 17:20:07,"0,050s",PASSED
+click,Chrome 69.0.3497.81,,2018-09-07 17:20:07,2018-09-07 17:20:07,"0,106s",PASSED
+waitForElementPresent,Chrome 69.0.3497.81,,2018-09-07 17:20:07,2018-09-07 17:20:07,"0,070s",PASSED
+verifyElementVisible,Chrome 69.0.3497.81,,2018-09-07 17:20:07,2018-09-07 17:20:07,"0,065s",PASSED
+verifyElementNotPresent,Chrome 69.0.3497.81,,2018-09-07 17:20:07,2018-09-07 17:20:07,"0,116s",PASSED
+verifyElementPresent,Chrome 69.0.3497.81,,2018-09-07 17:20:07,2018-09-07 17:20:07,"0,044s",PASSED
+verifyElementVisible,Chrome 69.0.3497.81,,2018-09-07 17:20:07,2018-09-07 17:20:07,"0,049s",PASSED
+comment,Chrome 69.0.3497.81,,2018-09-07 17:20:07,2018-09-07 17:20:07,"0,011s",PASSED
+verifyElementVisible,Chrome 69.0.3497.81,,2018-09-07 17:20:07,2018-09-07 17:20:39,"31,528s",FAILED
+,,,,,,
+Test Cases/DashboardTransportFilter,Chrome 69.0.3497.81,,2018-09-07 17:20:41,2018-09-07 17:20:45,"3,796s",PASSED
+Statement - select_status = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/transferStatusCLICK),Chrome 69.0.3497.81,,2018-09-07 17:20:41,2018-09-07 17:20:41,"0,020s",PASSED
+"Statement - optionMap = [""SUBMITTED"":""li_SUBMITTED"", ""SUSPENDED"":""li_SUSPENDED"", ""RESUMED"":""li_RESUMED"", ""STARTED"":""li_STARTED"", ""STARTED_RETRY"":""li_STARTED_RETRY"", ... ]",Chrome 69.0.3497.81,,2018-09-07 17:20:41,2018-09-07 17:20:41,"0,007s",PASSED
+"Statement - optionMap.each({ java.lang.Object optionIndex, java.lang.Object optionsValue -> ... })",Chrome 69.0.3497.81,,2018-09-07 17:20:41,2018-09-07 17:20:42,"1,137s",PASSED
+click,Chrome 69.0.3497.81,,2018-09-07 17:20:42,2018-09-07 17:20:42,"0,063s",PASSED
+click,Chrome 69.0.3497.81,,2018-09-07 17:20:42,2018-09-07 17:20:42,"0,063s",PASSED
+Statement - btn_clear = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter),Chrome 69.0.3497.81,,2018-09-07 17:20:42,2018-09-07 17:20:42,"0,025s",PASSED
+Statement - btn_apply = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter),Chrome 69.0.3497.81,,2018-09-07 17:20:42,2018-09-07 17:20:42,"0,012s",PASSED
+Statement - input_transferStatus = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus),Chrome 69.0.3497.81,,2018-09-07 17:20:42,2018-09-07 17:20:42,"0,011s",PASSED
+click,Chrome 69.0.3497.81,,2018-09-07 17:20:42,2018-09-07 17:20:42,"0,086s",PASSED
+,,,,,,
+Test Cases/MenuSettings,Chrome 69.0.3497.81,,2018-09-07 17:20:45,2018-09-07 17:20:52,"7,054s",PASSED
+Statement - btn_dash = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(GhibliDashboard/btn_monitordashboard),Chrome 69.0.3497.81,,2018-09-07 17:20:45,2018-09-07 17:20:45,"0,026s",PASSED
+"Statement - css = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(btn_dash, ""class"", STOP_ON_FAILURE)",Chrome 69.0.3497.81,,2018-09-07 17:20:45,2018-09-07 17:20:45,"0,081s",PASSED
+Statement - isPressed = css.contains(btn_pressed),Chrome 69.0.3497.81,,2018-09-07 17:20:45,2018-09-07 17:20:45,"0,013s",PASSED
+Statement - If (isPressed == false),Chrome 69.0.3497.81,,2018-09-07 17:20:45,2018-09-07 17:20:45,"0,014s",PASSED
+verifyElementNotVisible,Chrome 69.0.3497.81,,2018-09-07 17:20:45,2018-09-07 17:20:45,"0,050s",PASSED
+click,Chrome 69.0.3497.81,,2018-09-07 17:20:45,2018-09-07 17:20:46,"0,633s",PASSED
+waitForElementPresent,Chrome 69.0.3497.81,,2018-09-07 17:20:46,2018-09-07 17:20:46,"0,035s",PASSED
+verifyElementVisible,Chrome 69.0.3497.81,,2018-09-07 17:20:46,2018-09-07 17:20:46,"0,083s",PASSED
+"Statement - element = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SettingsMenu/Collection Tree Text), waitShort)",Chrome 69.0.3497.81,,2018-09-07 17:20:46,2018-09-07 17:20:46,"0,065s",PASSED
+Statement - element.each({ java.lang.Object el -> ... }),Chrome 69.0.3497.81,,2018-09-07 17:20:46,2018-09-07 17:20:46,"0,278s",PASSED
+"Statement - elementQtip = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SettingsMenu/Collection Tree), 10)",Chrome 69.0.3497.81,,2018-09-07 17:20:46,2018-09-07 17:20:46,"0,042s",PASSED
+Statement - elementQtip.each({ java.lang.Object elW -> ... }),Chrome 69.0.3497.81,,2018-09-07 17:20:46,2018-09-07 17:20:50,"3,377s",PASSED
+,,,,,,
+Test Cases/Logout,Chrome 69.0.3497.81,,2018-09-07 17:20:52,2018-09-07 17:20:54,"2,326s",PASSED
+Statement - test = false,Chrome 69.0.3497.81,,2018-09-07 17:20:52,2018-09-07 17:20:52,"0,008s",PASSED
+"Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(GhibliDashboard/btn_logout), 1)",Chrome 69.0.3497.81,,2018-09-07 17:20:52,2018-09-07 17:20:52,"0,038s",PASSED
+Statement - assert test == true,Chrome 69.0.3497.81,,2018-09-07 17:20:52,2018-09-07 17:20:52,"0,008s",PASSED

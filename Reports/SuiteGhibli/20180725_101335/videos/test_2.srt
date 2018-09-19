@@ -1,0 +1,12 @@
+1
+00:00:00,163 --> 00:00:00,164
+1. Statement - input_login = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_username)
+
+2
+00:00:00,192 --> 00:00:00,193
+5. Statement - input_pwd = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_password)
+
+3
+00:00:00,203 --> 00:00:00,204
+9. verifyElementPresent
+

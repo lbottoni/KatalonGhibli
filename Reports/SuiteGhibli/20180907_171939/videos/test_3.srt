@@ -1,0 +1,88 @@
+1
+00:00:00,261 --> 00:00:00,262
+1. Statement - maps = [com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_sourceQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_destinationQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_correlationID), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflowdashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflow), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_transfersearch), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_setting), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_monitordashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_logout), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter)]
+
+2
+00:00:00,348 --> 00:00:00,350
+5. Statement - total = 0
+
+3
+00:00:00,357 --> 00:00:00,358
+9. Statement - ok = 0
+
+4
+00:00:00,365 --> 00:00:00,366
+13. Statement - ko = 0
+
+5
+00:00:00,373 --> 00:00:00,374
+17. Statement - For (def element : maps)
+
+6
+00:00:00,382 --> 00:00:00,382
+1. Statement - tag = element.findPropertyValue("tag", false)
+
+7
+00:00:00,394 --> 00:00:00,395
+5. Statement - id = element.getObjectId()
+
+8
+00:00:00,405 --> 00:00:00,406
+9. Statement - test = false
+
+9
+00:00:00,414 --> 00:00:00,415
+13. Statement - assert tag != ""
+
+10
+00:00:00,423 --> 00:00:00,425
+17. Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1)
+
+11
+00:00:00,461 --> 00:00:00,461
+21. Statement - If (test == true)
+
+12
+00:00:00,467 --> 00:00:00,468
+1. Statement - (ok++)
+
+13
+00:00:00,474 --> 00:00:00,475
+25. Statement - assert test == true
+
+14
+00:00:00,482 --> 00:00:00,484
+29. Statement - (total++)
+
+15
+00:00:00,493 --> 00:00:00,495
+1. Statement - tag = element.findPropertyValue("tag", false)
+
+16
+00:00:00,502 --> 00:00:00,504
+5. Statement - id = element.getObjectId()
+
+17
+00:00:00,512 --> 00:00:00,514
+9. Statement - test = false
+
+18
+00:00:00,520 --> 00:00:00,521
+13. Statement - assert tag != ""
+
+19
+00:00:00,526 --> 00:00:00,527
+17. Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1)
+
+20
+00:00:01,876 --> 00:00:01,876
+21. Statement - If (test == true)
+
+21
+00:00:01,886 --> 00:00:01,887
+2. Statement - (ko++)
+
+22
+00:00:01,896 --> 00:00:01,898
+25. Statement - assert test == true
+

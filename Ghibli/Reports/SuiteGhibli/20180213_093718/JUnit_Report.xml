@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SuiteGhibli" time="25" tests="2" failures="0" errors="0">
+   <testsuite name="SuiteGhibli" tests="2" failures="0" errors="0" time="25" timestamp="2018-02-13 09:37:29" hostname="luca.bottoni - LAP-PC-122.primeurad.com" id="Test Suites/SuiteGhibli">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180213_093718"/>
+         <property name="logFiles" value="C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180213_093718\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="luca.bottoni - LAP-PC-122.primeurad.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.140"/>
+         <property name="hostAddress" value="169.254.92.146"/>
+         <property name="sessionId" value="b145a30a697b5cc91d295273749d606d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2018-02-13 09:37:30 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-02-13 09:37:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://ghibli-distro.localhost/'
+
+2018-02-13 09:37:36 - [MESSAGE][PASSED] - Browser is opened with url: 'http://ghibli-distro.localhost/'
+
+2018-02-13 09:37:36 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-02-13 09:37:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-02-13 09:37:37 - [TEST_STEP][PASSED] - setText: Text 'ghibliXXXX' is set on object 'Object Repository/GhibliLoginPage/input_username'
+
+2018-02-13 09:37:37 - [MESSAGE][PASSED] - Text 'ghibliXXXX' is set on object 'Object Repository/GhibliLoginPage/input_username'
+
+2018-02-13 09:37:37 - [TEST_STEP][PASSED] - setText: Text 'ghibliXXXX' is set on object 'Object Repository/GhibliLoginPage/input_password'
+
+2018-02-13 09:37:38 - [MESSAGE][PASSED] - Text 'ghibliXXXX' is set on object 'Object Repository/GhibliLoginPage/input_password'
+
+2018-02-13 09:37:38 - [TEST_STEP][PASSED] - Statement - text1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/div_Incorrect Username or Pass)): Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is NOT visible
+
+2018-02-13 09:37:38 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is NOT visible
+
+2018-02-13 09:37:38 - [TEST_STEP][PASSED] - Statement - assert text1 == true: null
+
+2018-02-13 09:37:38 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/GhibliLoginPage/LoginButton' is double clicked on
+
+2018-02-13 09:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliLoginPage/LoginButton' is double clicked on
+
+2018-02-13 09:37:38 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is present
+
+2018-02-13 09:37:38 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is present
+
+2018-02-13 09:37:38 - [TEST_STEP][PASSED] - Statement - text2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent("Incorrect Username or Password", false): Text 'Incorrect Username or Password' is present on page 
+
+2018-02-13 09:37:38 - [MESSAGE][PASSED] - Text 'Incorrect Username or Password' is present on page 
+
+2018-02-13 09:37:38 - [TEST_STEP][PASSED] - Statement - assert text2 == true: null
+
+2018-02-13 09:37:38 - [TEST_STEP][PASSED] - setText: Text 'luca.bottoni' is set on object 'Object Repository/GhibliLoginPage/input_username'
+
+2018-02-13 09:37:38 - [MESSAGE][PASSED] - Text 'luca.bottoni' is set on object 'Object Repository/GhibliLoginPage/input_username'
+
+2018-02-13 09:37:38 - [TEST_STEP][PASSED] - setText: Text 'N.azionale' is set on object 'Object Repository/GhibliLoginPage/input_password'
+
+2018-02-13 09:37:39 - [MESSAGE][PASSED] - Text 'N.azionale' is set on object 'Object Repository/GhibliLoginPage/input_password'
+
+2018-02-13 09:37:39 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/GhibliLoginPage/LoginButton' is double clicked on
+
+2018-02-13 09:37:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliLoginPage/LoginButton' is double clicked on
+
+2018-02-13 09:37:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-02-13 09:37:40 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard" classname="Test Cases/Dashboard" status="PASSED">
+         <system-out><![CDATA[2018-02-13 09:37:40 - [TEST_CASE][PASSED] - Test Cases/Dashboard: Test Cases/Dashboard
+
+2018-02-13 09:37:40 - [TEST_STEP][PASSED] - Statement - maps = [com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_sourceQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_destinationQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_correlationID), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflowdashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflow), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_transfersearch), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_setting), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_monitordashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_menu), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_logout), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter)]: Finding Test Object with id 'Object Repository/GhibliDashboard/btn_applyfilter'
+
+2018-02-13 09:37:40 - [TEST_STEP][PASSED] - Statement - c = 0: null
+
+2018-02-13 09:37:40 - [TEST_STEP][PASSED] - Statement - For (def element : maps): null
+
+2018-02-13 09:37:40 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-13 09:37:40 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-13 09:37:40 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-13 09:37:40 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + c + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:40 - [TEST_STEP][PASSED] - Statement - println(" > id=" + id): null
+
+2018-02-13 09:37:40 - [TEST_STEP][PASSED] - Statement - println(" > tag=" + tag): null
+
+2018-02-13 09:37:40 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliDashboard/input_transferStatus' is not present after 1 second(s)
+
+2018-02-13 09:37:41 - [MESSAGE][WARNING] - Object 'Object Repository/GhibliDashboard/input_transferStatus' is not present after 1 second(s)
+
+2018-02-13 09:37:41 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:41 - [TEST_STEP][PASSED] - Statement - println(): null
+
+2018-02-13 09:37:41 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:37:41 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-13 09:37:41 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-13 09:37:41 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-13 09:37:41 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + c + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:41 - [TEST_STEP][PASSED] - Statement - println(" > id=" + id): null
+
+2018-02-13 09:37:41 - [TEST_STEP][PASSED] - Statement - println(" > tag=" + tag): null
+
+2018-02-13 09:37:41 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliDashboard/input_sourceQueueManager' is not present after 1 second(s)
+
+2018-02-13 09:37:42 - [MESSAGE][WARNING] - Object 'Object Repository/GhibliDashboard/input_sourceQueueManager' is not present after 1 second(s)
+
+2018-02-13 09:37:42 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:42 - [TEST_STEP][PASSED] - Statement - println(): null
+
+2018-02-13 09:37:42 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:37:42 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-13 09:37:42 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-13 09:37:42 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-13 09:37:42 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + c + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:42 - [TEST_STEP][PASSED] - Statement - println(" > id=" + id): null
+
+2018-02-13 09:37:42 - [TEST_STEP][PASSED] - Statement - println(" > tag=" + tag): null
+
+2018-02-13 09:37:42 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliDashboard/input_destinationQueueManager' is not present after 1 second(s)
+
+2018-02-13 09:37:43 - [MESSAGE][WARNING] - Object 'Object Repository/GhibliDashboard/input_destinationQueueManager' is not present after 1 second(s)
+
+2018-02-13 09:37:43 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:43 - [TEST_STEP][PASSED] - Statement - println(): null
+
+2018-02-13 09:37:43 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:37:43 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-13 09:37:43 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-13 09:37:43 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-13 09:37:43 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + c + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:43 - [TEST_STEP][PASSED] - Statement - println(" > id=" + id): null
+
+2018-02-13 09:37:43 - [TEST_STEP][PASSED] - Statement - println(" > tag=" + tag): null
+
+2018-02-13 09:37:43 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliDashboard/input_correlationID' is not present after 1 second(s)
+
+2018-02-13 09:37:44 - [MESSAGE][WARNING] - Object 'Object Repository/GhibliDashboard/input_correlationID' is not present after 1 second(s)
+
+2018-02-13 09:37:44 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:44 - [TEST_STEP][PASSED] - Statement - println(): null
+
+2018-02-13 09:37:44 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:37:44 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-13 09:37:44 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-13 09:37:44 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-13 09:37:44 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + c + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:44 - [TEST_STEP][PASSED] - Statement - println(" > id=" + id): null
+
+2018-02-13 09:37:44 - [TEST_STEP][PASSED] - Statement - println(" > tag=" + tag): null
+
+2018-02-13 09:37:44 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliDashboard/btn_workflowdashboard' is not present after 1 second(s)
+
+2018-02-13 09:37:45 - [MESSAGE][WARNING] - Object 'Object Repository/GhibliDashboard/btn_workflowdashboard' is not present after 1 second(s)
+
+2018-02-13 09:37:45 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:45 - [TEST_STEP][PASSED] - Statement - println(): null
+
+2018-02-13 09:37:45 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:37:45 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-13 09:37:45 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-13 09:37:45 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-13 09:37:45 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + c + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:45 - [TEST_STEP][PASSED] - Statement - println(" > id=" + id): null
+
+2018-02-13 09:37:45 - [TEST_STEP][PASSED] - Statement - println(" > tag=" + tag): null
+
+2018-02-13 09:37:45 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliDashboard/btn_workflow' is not present after 1 second(s)
+
+2018-02-13 09:37:46 - [MESSAGE][WARNING] - Object 'Object Repository/GhibliDashboard/btn_workflow' is not present after 1 second(s)
+
+2018-02-13 09:37:46 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:46 - [TEST_STEP][PASSED] - Statement - println(): null
+
+2018-02-13 09:37:46 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:37:46 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-13 09:37:46 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-13 09:37:46 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-13 09:37:46 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + c + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:46 - [TEST_STEP][PASSED] - Statement - println(" > id=" + id): null
+
+2018-02-13 09:37:46 - [TEST_STEP][PASSED] - Statement - println(" > tag=" + tag): null
+
+2018-02-13 09:37:46 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliDashboard/btn_transfersearch' is not present after 1 second(s)
+
+2018-02-13 09:37:47 - [MESSAGE][WARNING] - Object 'Object Repository/GhibliDashboard/btn_transfersearch' is not present after 1 second(s)
+
+2018-02-13 09:37:47 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:47 - [TEST_STEP][PASSED] - Statement - println(): null
+
+2018-02-13 09:37:47 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:37:47 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-13 09:37:47 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-13 09:37:47 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-13 09:37:47 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + c + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:47 - [TEST_STEP][PASSED] - Statement - println(" > id=" + id): null
+
+2018-02-13 09:37:47 - [TEST_STEP][PASSED] - Statement - println(" > tag=" + tag): null
+
+2018-02-13 09:37:47 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliDashboard/btn_setting' is not present after 1 second(s)
+
+2018-02-13 09:37:48 - [MESSAGE][WARNING] - Object 'Object Repository/GhibliDashboard/btn_setting' is not present after 1 second(s)
+
+2018-02-13 09:37:48 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:48 - [TEST_STEP][PASSED] - Statement - println(): null
+
+2018-02-13 09:37:48 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:37:48 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-13 09:37:48 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-13 09:37:48 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-13 09:37:48 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + c + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:48 - [TEST_STEP][PASSED] - Statement - println(" > id=" + id): null
+
+2018-02-13 09:37:48 - [TEST_STEP][PASSED] - Statement - println(" > tag=" + tag): null
+
+2018-02-13 09:37:48 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliDashboard/btn_monitordashboard' is not present after 1 second(s)
+
+2018-02-13 09:37:50 - [MESSAGE][WARNING] - Object 'Object Repository/GhibliDashboard/btn_monitordashboard' is not present after 1 second(s)
+
+2018-02-13 09:37:50 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:50 - [TEST_STEP][PASSED] - Statement - println(): null
+
+2018-02-13 09:37:50 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:37:50 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-13 09:37:50 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-13 09:37:50 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-13 09:37:50 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + c + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:50 - [TEST_STEP][PASSED] - Statement - println(" > id=" + id): null
+
+2018-02-13 09:37:50 - [TEST_STEP][PASSED] - Statement - println(" > tag=" + tag): null
+
+2018-02-13 09:37:50 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliDashboard/btn_menu' is not present after 1 second(s)
+
+2018-02-13 09:37:51 - [MESSAGE][WARNING] - Object 'Object Repository/GhibliDashboard/btn_menu' is not present after 1 second(s)
+
+2018-02-13 09:37:51 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:51 - [TEST_STEP][PASSED] - Statement - println(): null
+
+2018-02-13 09:37:51 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:37:51 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-13 09:37:51 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-13 09:37:51 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-13 09:37:51 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + c + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:51 - [TEST_STEP][PASSED] - Statement - println(" > id=" + id): null
+
+2018-02-13 09:37:51 - [TEST_STEP][PASSED] - Statement - println(" > tag=" + tag): null
+
+2018-02-13 09:37:51 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliDashboard/btn_logout' is not present after 1 second(s)
+
+2018-02-13 09:37:52 - [MESSAGE][WARNING] - Object 'Object Repository/GhibliDashboard/btn_logout' is not present after 1 second(s)
+
+2018-02-13 09:37:52 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:52 - [TEST_STEP][PASSED] - Statement - println(): null
+
+2018-02-13 09:37:52 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:37:52 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-13 09:37:52 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-13 09:37:52 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-13 09:37:52 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + c + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:52 - [TEST_STEP][PASSED] - Statement - println(" > id=" + id): null
+
+2018-02-13 09:37:52 - [TEST_STEP][PASSED] - Statement - println(" > tag=" + tag): null
+
+2018-02-13 09:37:52 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliDashboard/btn_clearfilter' is not present after 1 second(s)
+
+2018-02-13 09:37:53 - [MESSAGE][WARNING] - Object 'Object Repository/GhibliDashboard/btn_clearfilter' is not present after 1 second(s)
+
+2018-02-13 09:37:53 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:53 - [TEST_STEP][PASSED] - Statement - println(): null
+
+2018-02-13 09:37:53 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-02-13 09:37:53 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-13 09:37:53 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-13 09:37:53 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-13 09:37:53 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + c + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:53 - [TEST_STEP][PASSED] - Statement - println(" > id=" + id): null
+
+2018-02-13 09:37:53 - [TEST_STEP][PASSED] - Statement - println(" > tag=" + tag): null
+
+2018-02-13 09:37:53 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliDashboard/btn_applyfilter' is not present after 1 second(s)
+
+2018-02-13 09:37:54 - [MESSAGE][WARNING] - Object 'Object Repository/GhibliDashboard/btn_applyfilter' is not present after 1 second(s)
+
+2018-02-13 09:37:54 - [TEST_STEP][PASSED] - Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙"): null
+
+2018-02-13 09:37:54 - [TEST_STEP][PASSED] - Statement - println(): null
+
+2018-02-13 09:37:54 - [TEST_STEP][PASSED] - Statement - (c++): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-13 09:37:29 - [TEST_SUITE][PASSED] - SuiteGhibli: Test Cases/Dashboard]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

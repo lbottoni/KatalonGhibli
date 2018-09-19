@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>kt_view_dataentry_spazio_list_container_title</name>
+   <tag></tag>
+   <elementGuidId>939a77f1-eb96-426a-9dd2-de0e6d21e731</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>kt_view_dataentry_spazio_list_container_title</value>
+   </webElementProperties>
+</WebElementEntity>

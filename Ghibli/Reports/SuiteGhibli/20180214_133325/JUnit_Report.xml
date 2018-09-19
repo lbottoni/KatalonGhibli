@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SuiteGhibli" time="254" tests="0" failures="3" errors="0">
+   <testsuite name="SuiteGhibli" tests="0" failures="3" errors="0" time="254" timestamp="2018-02-14 13:33:37" hostname="luca.bottoni - LAP-PC-122.primeurad.com" id="Test Suites/SuiteGhibli">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180214_133325"/>
+         <property name="logFiles" value="C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180214_133325\\execution0.log, C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180214_133325\\IEDriverServer.log"/>
+         <property name="attachments" value="C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180214_133325\\1518611678892.png, C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180214_133325\\1518611682911.png"/>
+         <property name="hostName" value="luca.bottoni - LAP-PC-122.primeurad.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="169.254.92.146"/>
+         <property name="sessionId" value="e8321904-15cc-4a62-8dbf-9e3b7552c19a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'ghibliXXXX' of object 'Object Repository/GhibliLoginPage/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GhibliLoginPage/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)"/>
+         <system-out><![CDATA[2018-02-14 13:33:37 - [TEST_CASE][FAILED] - Test Cases/Login: Test Cases/Login FAILED because (of) Unable to set text 'ghibliXXXX' of object 'Object Repository/GhibliLoginPage/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GhibliLoginPage/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)
+
+2018-02-14 13:33:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://ghibli-distro.localhost/'
+
+2018-02-14 13:33:46 - [MESSAGE][PASSED] - Browser is opened with url: 'http://ghibli-distro.localhost/'
+
+2018-02-14 13:33:46 - [TEST_STEP][FAILED] - setText: Unable to set text 'ghibliXXXX' of object 'Object Repository/GhibliLoginPage/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GhibliLoginPage/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)
+
+2018-02-14 13:34:39 - [MESSAGE][FAILED] - Unable to set text 'ghibliXXXX' of object 'Object Repository/GhibliLoginPage/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GhibliLoginPage/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)
+[[ATTACHMENT|C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180214_133325\\1518611678892.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-14 13:33:37 - [TEST_CASE][FAILED] - Test Cases/Login: Test Cases/Login FAILED because (of) Unable to set text 'ghibliXXXX' of object 'Object Repository/GhibliLoginPage/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GhibliLoginPage/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard" classname="Test Cases/Dashboard" status="FAILED">
+         <failure type="FAILED" message="org.codehaus.groovy.runtime.powerassert.PowerAssertionError: assert test == true
+       |    |
+       |    false
+       false"/>
+         <system-out><![CDATA[2018-02-14 13:34:39 - [TEST_CASE][FAILED] - Test Cases/Dashboard: Test Cases/Dashboard FAILED because (of) org.codehaus.groovy.runtime.powerassert.PowerAssertionError: assert test == true
+       |    |
+       |    false
+       false
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - maps = [com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_sourceQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_destinationQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_correlationID), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflowdashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflow), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_transfersearch), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_setting), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_monitordashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_logout), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter)]: Finding Test Object with id 'Object Repository/GhibliDashboard/btn_applyfilter'
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - total = 0: null
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - ok = 0: null
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - ko = 0: null
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - For (def element : maps): null
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - test = false: null
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1): Object 'Object Repository/GhibliDashboard/input_transferStatus' is present
+
+2018-02-14 13:34:39 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/input_transferStatus' is present
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - If (test == true): null
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - (ok++): null
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - assert test == true: null
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - (total++): null
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - test = false: null
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-02-14 13:34:39 - [TEST_STEP][PASSED] - Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1): Object 'Object Repository/GhibliDashboard/input_sourceQueueManager' is not present after 1 second(s)
+
+2018-02-14 13:34:41 - [MESSAGE][WARNING] - Object 'Object Repository/GhibliDashboard/input_sourceQueueManager' is not present after 1 second(s)
+
+2018-02-14 13:34:41 - [TEST_STEP][PASSED] - Statement - If (test == true): null
+
+2018-02-14 13:34:41 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-02-14 13:34:41 - [TEST_STEP][PASSED] - Statement - (ko++): null
+
+2018-02-14 13:34:41 - [TEST_STEP][PASSED] - Statement - assert test == true: null]]></system-out>
+         <system-err><![CDATA[2018-02-14 13:34:39 - [TEST_CASE][FAILED] - Test Cases/Dashboard: Test Cases/Dashboard FAILED because (of) org.codehaus.groovy.runtime.powerassert.PowerAssertionError: assert test == true
+       |    |
+       |    false
+       false]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DashboardTransportFilter" classname="Test Cases/DashboardTransportFilter" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/GhibliDashboard/transferStatusCLICK' (Root cause: java.lang.NullPointerException)"/>
+         <system-out><![CDATA[2018-02-14 13:34:41 - [TEST_CASE][FAILED] - Test Cases/DashboardTransportFilter: Test Cases/DashboardTransportFilter FAILED because (of) Unable to click on object 'Object Repository/GhibliDashboard/transferStatusCLICK' (Root cause: java.lang.NullPointerException)
+
+2018-02-14 13:34:41 - [TEST_STEP][PASSED] - Statement - select_status = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/transferStatusCLICK): Finding Test Object with id 'Object Repository/GhibliDashboard/transferStatusCLICK'
+
+2018-02-14 13:34:41 - [TEST_STEP][PASSED] - Statement - optionMap = ["SUBMITTED":"li_SUBMITTED", "SUSPENDED":"li_SUSPENDED", "RESUMED":"li_RESUMED", "STARTED":"li_STARTED", "STARTED_RETRY":"li_STARTED_RETRY", ... ]: null
+
+2018-02-14 13:34:41 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/GhibliDashboard/transferStatusCLICK' (Root cause: java.lang.NullPointerException)
+
+2018-02-14 13:37:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/GhibliDashboard/transferStatusCLICK' (Root cause: java.lang.NullPointerException)
+[[ATTACHMENT|C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180214_133325\\1518611682911.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-14 13:34:41 - [TEST_CASE][FAILED] - Test Cases/DashboardTransportFilter: Test Cases/DashboardTransportFilter FAILED because (of) Unable to click on object 'Object Repository/GhibliDashboard/transferStatusCLICK' (Root cause: java.lang.NullPointerException)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-14 13:33:37 - [TEST_SUITE][FAILED] - SuiteGhibli: Test Cases/Login FAILED because (of) Unable to set text 'ghibliXXXX' of object 'Object Repository/GhibliLoginPage/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GhibliLoginPage/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)]]></system-out>
+      <system-err><![CDATA[2018-02-14 13:33:37 - [TEST_SUITE][FAILED] - SuiteGhibli: Test Cases/Login FAILED because (of) Unable to set text 'ghibliXXXX' of object 'Object Repository/GhibliLoginPage/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GhibliLoginPage/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

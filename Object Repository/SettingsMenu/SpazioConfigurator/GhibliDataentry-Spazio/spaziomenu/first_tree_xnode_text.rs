@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>first_tree_xnode_text</name>
+   <tag></tag>
+   <elementGuidId>b4faf61d-6049-4d1c-82d7-83fbf922134f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//tbody[starts-with(@id,&quot;treeview&quot;)]/tr[1]//span[contains(@class,'x-tree-node-text')]</value>
+   </webElementProperties>
+</WebElementEntity>

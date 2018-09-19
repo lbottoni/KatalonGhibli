@@ -1,0 +1,740 @@
+1
+00:00:00,177 --> 00:00:00,178
+1. Statement - maps = [com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_destinationQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_correlationID), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflowdashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflow), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_transfersearch), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_setting), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_monitordashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_logout), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter)]
+
+2
+00:00:00,240 --> 00:00:00,241
+5. Statement - total = 0
+
+3
+00:00:00,247 --> 00:00:00,248
+9. Statement - ok = 0
+
+4
+00:00:00,254 --> 00:00:00,255
+13. Statement - ko = 0
+
+5
+00:00:00,263 --> 00:00:00,264
+17. Statement - For (def element : maps)
+
+6
+00:00:00,272 --> 00:00:00,272
+1. Statement - tag = element.findPropertyValue("tag", false)
+
+7
+00:00:00,286 --> 00:00:00,288
+5. Statement - id = element.getObjectId()
+
+8
+00:00:00,295 --> 00:00:00,296
+9. Statement - test = false
+
+9
+00:00:00,304 --> 00:00:00,305
+13. Statement - assert tag != ""
+
+10
+00:00:00,312 --> 00:00:00,314
+17. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + total + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+11
+00:00:00,323 --> 00:00:00,323
+21. Statement - println(" > id=" + id)
+
+12
+00:00:00,331 --> 00:00:00,331
+25. Statement - println(" > tag=" + tag)
+
+13
+00:00:00,338 --> 00:00:00,339
+29. Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1)
+
+14
+00:00:00,365 --> 00:00:00,367
+33. Statement - If (test == true)
+
+15
+00:00:00,376 --> 00:00:00,377
+1. Statement - (ok++)
+
+16
+00:00:00,384 --> 00:00:00,385
+37. Statement - assert test == true
+
+17
+00:00:00,395 --> 00:00:00,396
+41. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+18
+00:00:00,403 --> 00:00:00,404
+45. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+19
+00:00:00,412 --> 00:00:00,414
+49. Statement - println("")
+
+20
+00:00:00,423 --> 00:00:00,424
+53. Statement - println("")
+
+21
+00:00:00,432 --> 00:00:00,434
+57. Statement - (total++)
+
+22
+00:00:00,442 --> 00:00:00,443
+1. Statement - tag = element.findPropertyValue("tag", false)
+
+23
+00:00:00,448 --> 00:00:00,449
+5. Statement - id = element.getObjectId()
+
+24
+00:00:00,456 --> 00:00:00,457
+9. Statement - test = false
+
+25
+00:00:00,463 --> 00:00:00,464
+13. Statement - assert tag != ""
+
+26
+00:00:00,470 --> 00:00:00,472
+17. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + total + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+27
+00:00:00,484 --> 00:00:00,485
+21. Statement - println(" > id=" + id)
+
+28
+00:00:00,495 --> 00:00:00,496
+25. Statement - println(" > tag=" + tag)
+
+29
+00:00:00,505 --> 00:00:00,506
+29. Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1)
+
+30
+00:00:00,523 --> 00:00:00,524
+33. Statement - If (test == true)
+
+31
+00:00:00,531 --> 00:00:00,531
+1. Statement - (ok++)
+
+32
+00:00:00,538 --> 00:00:00,539
+37. Statement - assert test == true
+
+33
+00:00:00,548 --> 00:00:00,550
+41. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+34
+00:00:00,559 --> 00:00:00,560
+45. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+35
+00:00:00,567 --> 00:00:00,568
+49. Statement - println("")
+
+36
+00:00:00,576 --> 00:00:00,577
+53. Statement - println("")
+
+37
+00:00:00,585 --> 00:00:00,586
+57. Statement - (total++)
+
+38
+00:00:00,594 --> 00:00:00,595
+1. Statement - tag = element.findPropertyValue("tag", false)
+
+39
+00:00:00,602 --> 00:00:00,603
+5. Statement - id = element.getObjectId()
+
+40
+00:00:00,611 --> 00:00:00,611
+9. Statement - test = false
+
+41
+00:00:00,618 --> 00:00:00,619
+13. Statement - assert tag != ""
+
+42
+00:00:00,625 --> 00:00:00,625
+17. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + total + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+43
+00:00:00,633 --> 00:00:00,634
+21. Statement - println(" > id=" + id)
+
+44
+00:00:00,641 --> 00:00:00,642
+25. Statement - println(" > tag=" + tag)
+
+45
+00:00:00,649 --> 00:00:00,651
+29. Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1)
+
+46
+00:00:00,666 --> 00:00:00,667
+33. Statement - If (test == true)
+
+47
+00:00:00,688 --> 00:00:00,689
+1. Statement - (ok++)
+
+48
+00:00:00,697 --> 00:00:00,698
+37. Statement - assert test == true
+
+49
+00:00:00,707 --> 00:00:00,708
+41. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+50
+00:00:00,715 --> 00:00:00,716
+45. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+51
+00:00:00,726 --> 00:00:00,726
+49. Statement - println("")
+
+52
+00:00:00,736 --> 00:00:00,737
+53. Statement - println("")
+
+53
+00:00:00,746 --> 00:00:00,746
+57. Statement - (total++)
+
+54
+00:00:00,755 --> 00:00:00,756
+1. Statement - tag = element.findPropertyValue("tag", false)
+
+55
+00:00:00,767 --> 00:00:00,768
+5. Statement - id = element.getObjectId()
+
+56
+00:00:00,779 --> 00:00:00,780
+9. Statement - test = false
+
+57
+00:00:00,792 --> 00:00:00,793
+13. Statement - assert tag != ""
+
+58
+00:00:00,801 --> 00:00:00,802
+17. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + total + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+59
+00:00:00,811 --> 00:00:00,812
+21. Statement - println(" > id=" + id)
+
+60
+00:00:00,821 --> 00:00:00,822
+25. Statement - println(" > tag=" + tag)
+
+61
+00:00:00,828 --> 00:00:00,829
+29. Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1)
+
+62
+00:00:00,848 --> 00:00:00,849
+33. Statement - If (test == true)
+
+63
+00:00:00,860 --> 00:00:00,861
+1. Statement - (ok++)
+
+64
+00:00:00,870 --> 00:00:00,872
+37. Statement - assert test == true
+
+65
+00:00:00,880 --> 00:00:00,881
+41. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+66
+00:00:00,888 --> 00:00:00,889
+45. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+67
+00:00:00,908 --> 00:00:00,909
+49. Statement - println("")
+
+68
+00:00:00,921 --> 00:00:00,922
+53. Statement - println("")
+
+69
+00:00:00,932 --> 00:00:00,934
+57. Statement - (total++)
+
+70
+00:00:00,942 --> 00:00:00,943
+1. Statement - tag = element.findPropertyValue("tag", false)
+
+71
+00:00:00,950 --> 00:00:00,951
+5. Statement - id = element.getObjectId()
+
+72
+00:00:00,960 --> 00:00:00,961
+9. Statement - test = false
+
+73
+00:00:00,968 --> 00:00:00,969
+13. Statement - assert tag != ""
+
+74
+00:00:00,980 --> 00:00:00,982
+17. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + total + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+75
+00:00:00,991 --> 00:00:00,992
+21. Statement - println(" > id=" + id)
+
+76
+00:00:01,003 --> 00:00:01,005
+25. Statement - println(" > tag=" + tag)
+
+77
+00:00:01,015 --> 00:00:01,016
+29. Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1)
+
+78
+00:00:01,038 --> 00:00:01,039
+33. Statement - If (test == true)
+
+79
+00:00:01,048 --> 00:00:01,049
+1. Statement - (ok++)
+
+80
+00:00:01,057 --> 00:00:01,058
+37. Statement - assert test == true
+
+81
+00:00:01,069 --> 00:00:01,072
+41. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+82
+00:00:01,080 --> 00:00:01,081
+45. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+83
+00:00:01,092 --> 00:00:01,093
+49. Statement - println("")
+
+84
+00:00:01,103 --> 00:00:01,103
+53. Statement - println("")
+
+85
+00:00:01,113 --> 00:00:01,114
+57. Statement - (total++)
+
+86
+00:00:01,122 --> 00:00:01,123
+1. Statement - tag = element.findPropertyValue("tag", false)
+
+87
+00:00:01,133 --> 00:00:01,135
+5. Statement - id = element.getObjectId()
+
+88
+00:00:01,146 --> 00:00:01,147
+9. Statement - test = false
+
+89
+00:00:01,157 --> 00:00:01,159
+13. Statement - assert tag != ""
+
+90
+00:00:01,169 --> 00:00:01,170
+17. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + total + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+91
+00:00:01,179 --> 00:00:01,179
+21. Statement - println(" > id=" + id)
+
+92
+00:00:01,190 --> 00:00:01,190
+25. Statement - println(" > tag=" + tag)
+
+93
+00:00:01,198 --> 00:00:01,199
+29. Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1)
+
+94
+00:00:01,224 --> 00:00:01,224
+33. Statement - If (test == true)
+
+95
+00:00:01,233 --> 00:00:01,234
+1. Statement - (ok++)
+
+96
+00:00:01,244 --> 00:00:01,246
+37. Statement - assert test == true
+
+97
+00:00:01,260 --> 00:00:01,261
+41. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+98
+00:00:01,270 --> 00:00:01,272
+45. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+99
+00:00:01,281 --> 00:00:01,282
+49. Statement - println("")
+
+100
+00:00:01,292 --> 00:00:01,292
+53. Statement - println("")
+
+101
+00:00:01,300 --> 00:00:01,301
+57. Statement - (total++)
+
+102
+00:00:01,309 --> 00:00:01,310
+1. Statement - tag = element.findPropertyValue("tag", false)
+
+103
+00:00:01,321 --> 00:00:01,322
+5. Statement - id = element.getObjectId()
+
+104
+00:00:01,332 --> 00:00:01,334
+9. Statement - test = false
+
+105
+00:00:01,345 --> 00:00:01,346
+13. Statement - assert tag != ""
+
+106
+00:00:01,356 --> 00:00:01,356
+17. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + total + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+107
+00:00:01,366 --> 00:00:01,367
+21. Statement - println(" > id=" + id)
+
+108
+00:00:01,376 --> 00:00:01,377
+25. Statement - println(" > tag=" + tag)
+
+109
+00:00:01,391 --> 00:00:01,392
+29. Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1)
+
+110
+00:00:01,411 --> 00:00:01,411
+33. Statement - If (test == true)
+
+111
+00:00:01,419 --> 00:00:01,419
+1. Statement - (ok++)
+
+112
+00:00:01,428 --> 00:00:01,428
+37. Statement - assert test == true
+
+113
+00:00:01,435 --> 00:00:01,436
+41. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+114
+00:00:01,444 --> 00:00:01,445
+45. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+115
+00:00:01,452 --> 00:00:01,453
+49. Statement - println("")
+
+116
+00:00:01,460 --> 00:00:01,461
+53. Statement - println("")
+
+117
+00:00:01,467 --> 00:00:01,468
+57. Statement - (total++)
+
+118
+00:00:01,475 --> 00:00:01,475
+1. Statement - tag = element.findPropertyValue("tag", false)
+
+119
+00:00:01,482 --> 00:00:01,483
+5. Statement - id = element.getObjectId()
+
+120
+00:00:01,489 --> 00:00:01,490
+9. Statement - test = false
+
+121
+00:00:01,497 --> 00:00:01,498
+13. Statement - assert tag != ""
+
+122
+00:00:01,505 --> 00:00:01,505
+17. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + total + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+123
+00:00:01,513 --> 00:00:01,514
+21. Statement - println(" > id=" + id)
+
+124
+00:00:01,521 --> 00:00:01,522
+25. Statement - println(" > tag=" + tag)
+
+125
+00:00:01,532 --> 00:00:01,533
+29. Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1)
+
+126
+00:00:01,555 --> 00:00:01,555
+33. Statement - If (test == true)
+
+127
+00:00:01,563 --> 00:00:01,564
+1. Statement - (ok++)
+
+128
+00:00:01,572 --> 00:00:01,572
+37. Statement - assert test == true
+
+129
+00:00:01,579 --> 00:00:01,581
+41. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+130
+00:00:01,589 --> 00:00:01,590
+45. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+131
+00:00:01,599 --> 00:00:01,600
+49. Statement - println("")
+
+132
+00:00:01,611 --> 00:00:01,612
+53. Statement - println("")
+
+133
+00:00:01,620 --> 00:00:01,623
+57. Statement - (total++)
+
+134
+00:00:01,632 --> 00:00:01,632
+1. Statement - tag = element.findPropertyValue("tag", false)
+
+135
+00:00:01,641 --> 00:00:01,642
+5. Statement - id = element.getObjectId()
+
+136
+00:00:01,651 --> 00:00:01,652
+9. Statement - test = false
+
+137
+00:00:01,660 --> 00:00:01,661
+13. Statement - assert tag != ""
+
+138
+00:00:01,668 --> 00:00:01,668
+17. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + total + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+139
+00:00:01,675 --> 00:00:01,676
+21. Statement - println(" > id=" + id)
+
+140
+00:00:01,682 --> 00:00:01,683
+25. Statement - println(" > tag=" + tag)
+
+141
+00:00:01,690 --> 00:00:01,691
+29. Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1)
+
+142
+00:00:01,710 --> 00:00:01,710
+33. Statement - If (test == true)
+
+143
+00:00:01,734 --> 00:00:01,736
+1. Statement - (ok++)
+
+144
+00:00:01,744 --> 00:00:01,745
+37. Statement - assert test == true
+
+145
+00:00:01,756 --> 00:00:01,757
+41. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+146
+00:00:01,766 --> 00:00:01,767
+45. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+147
+00:00:01,776 --> 00:00:01,776
+49. Statement - println("")
+
+148
+00:00:01,784 --> 00:00:01,785
+53. Statement - println("")
+
+149
+00:00:01,794 --> 00:00:01,795
+57. Statement - (total++)
+
+150
+00:00:01,806 --> 00:00:01,807
+1. Statement - tag = element.findPropertyValue("tag", false)
+
+151
+00:00:01,815 --> 00:00:01,815
+5. Statement - id = element.getObjectId()
+
+152
+00:00:01,825 --> 00:00:01,826
+9. Statement - test = false
+
+153
+00:00:01,834 --> 00:00:01,835
+13. Statement - assert tag != ""
+
+154
+00:00:01,843 --> 00:00:01,844
+17. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + total + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+155
+00:00:01,851 --> 00:00:01,851
+21. Statement - println(" > id=" + id)
+
+156
+00:00:01,860 --> 00:00:01,862
+25. Statement - println(" > tag=" + tag)
+
+157
+00:00:01,872 --> 00:00:01,873
+29. Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1)
+
+158
+00:00:01,896 --> 00:00:01,897
+33. Statement - If (test == true)
+
+159
+00:00:01,906 --> 00:00:01,907
+1. Statement - (ok++)
+
+160
+00:00:01,914 --> 00:00:01,915
+37. Statement - assert test == true
+
+161
+00:00:01,923 --> 00:00:01,923
+41. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+162
+00:00:01,933 --> 00:00:01,934
+45. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+163
+00:00:01,944 --> 00:00:01,944
+49. Statement - println("")
+
+164
+00:00:01,953 --> 00:00:01,954
+53. Statement - println("")
+
+165
+00:00:01,965 --> 00:00:01,966
+57. Statement - (total++)
+
+166
+00:00:01,988 --> 00:00:01,989
+1. Statement - tag = element.findPropertyValue("tag", false)
+
+167
+00:00:02,001 --> 00:00:02,002
+5. Statement - id = element.getObjectId()
+
+168
+00:00:02,013 --> 00:00:02,014
+9. Statement - test = false
+
+169
+00:00:02,025 --> 00:00:02,026
+13. Statement - assert tag != ""
+
+170
+00:00:02,035 --> 00:00:02,036
+17. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙ Element[" + total + "] ◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+171
+00:00:02,044 --> 00:00:02,045
+21. Statement - println(" > id=" + id)
+
+172
+00:00:02,055 --> 00:00:02,055
+25. Statement - println(" > tag=" + tag)
+
+173
+00:00:02,062 --> 00:00:02,063
+29. Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1)
+
+174
+00:00:02,083 --> 00:00:02,083
+33. Statement - If (test == true)
+
+175
+00:00:02,096 --> 00:00:02,097
+1. Statement - (ok++)
+
+176
+00:00:02,107 --> 00:00:02,108
+37. Statement - assert test == true
+
+177
+00:00:02,116 --> 00:00:02,117
+41. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+178
+00:00:02,127 --> 00:00:02,128
+45. Statement - println("◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙")
+
+179
+00:00:02,137 --> 00:00:02,138
+49. Statement - println("")
+
+180
+00:00:02,148 --> 00:00:02,150
+53. Statement - println("")
+
+181
+00:00:02,163 --> 00:00:02,164
+57. Statement - (total++)
+
+182
+00:00:02,176 --> 00:00:02,177
+21. Statement - println("END TEST")
+
+183
+00:00:02,187 --> 00:00:02,188
+25. Statement - println("> TOTALE:" + total)
+
+184
+00:00:02,223 --> 00:00:02,224
+29. Statement - println("> OK:" + ok)
+
+185
+00:00:02,234 --> 00:00:02,234
+33. Statement - println("> KO:" + ko)
+

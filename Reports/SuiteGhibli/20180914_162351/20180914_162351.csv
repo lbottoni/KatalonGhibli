@@ -1,0 +1,120 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SuiteGhibli,Firefox 62.0,,2018-09-14 16:23:53,2018-09-14 16:24:47,"53,867s",PASSED
+,,,,,,
+Test Cases/OpenBrowser,Firefox 62.0,,2018-09-14 16:23:54,2018-09-14 16:24:06,"12,315s",PASSED
+openBrowser,Firefox 62.0,,2018-09-14 16:23:54,2018-09-14 16:24:00,"5,499s",PASSED
+maximizeWindow,Firefox 62.0,,2018-09-14 16:24:00,2018-09-14 16:24:00,"0,095s",PASSED
+navigateToUrl,Firefox 62.0,,2018-09-14 16:24:00,2018-09-14 16:24:04,"3,975s",PASSED
+waitForElementPresent,Firefox 62.0,,2018-09-14 16:24:04,2018-09-14 16:24:04,"0,193s",PASSED
+,,,,,,
+Test Cases/Login,Firefox 62.0,,2018-09-14 16:24:06,2018-09-14 16:24:16,"9,550s",PASSED
+Statement - input_login = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_username),Firefox 62.0,,2018-09-14 16:24:06,2018-09-14 16:24:06,"0,015s",PASSED
+Statement - input_pwd = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_password),Firefox 62.0,,2018-09-14 16:24:06,2018-09-14 16:24:06,"0,020s",PASSED
+verifyElementPresent,Firefox 62.0,,2018-09-14 16:24:06,2018-09-14 16:24:06,"0,049s",PASSED
+verifyElementPresent,Firefox 62.0,,2018-09-14 16:24:06,2018-09-14 16:24:06,"0,032s",PASSED
+setText,Firefox 62.0,,2018-09-14 16:24:06,2018-09-14 16:24:07,"0,149s",PASSED
+setText,Firefox 62.0,,2018-09-14 16:24:07,2018-09-14 16:24:07,"0,061s",PASSED
+delay,Firefox 62.0,,2018-09-14 16:24:07,2018-09-14 16:24:09,"2,034s",PASSED
+Statement - text1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/div_Incorrect Username or Pass)),Firefox 62.0,,2018-09-14 16:24:09,2018-09-14 16:24:09,"0,080s",PASSED
+Statement - assert text1 == true,Firefox 62.0,,2018-09-14 16:24:09,2018-09-14 16:24:09,"0,010s",PASSED
+doubleClick,Firefox 62.0,,2018-09-14 16:24:09,2018-09-14 16:24:09,"0,216s",PASSED
+delay,Firefox 62.0,,2018-09-14 16:24:09,2018-09-14 16:24:11,"2,010s",PASSED
+waitForElementPresent,Firefox 62.0,,2018-09-14 16:24:11,2018-09-14 16:24:11,"0,028s",PASSED
+"Statement - text2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(""Incorrect Username or Password"", false)",Firefox 62.0,,2018-09-14 16:24:11,2018-09-14 16:24:11,"0,126s",PASSED
+Statement - assert text2 == true,Firefox 62.0,,2018-09-14 16:24:11,2018-09-14 16:24:11,"0,006s",PASSED
+focus,Firefox 62.0,,2018-09-14 16:24:11,2018-09-14 16:24:11,"0,043s",PASSED
+setText,Firefox 62.0,,2018-09-14 16:24:11,2018-09-14 16:24:11,"0,083s",PASSED
+delay,Firefox 62.0,,2018-09-14 16:24:11,2018-09-14 16:24:12,"1,010s",PASSED
+focus,Firefox 62.0,,2018-09-14 16:24:12,2018-09-14 16:24:12,"0,067s",PASSED
+setText,Firefox 62.0,,2018-09-14 16:24:12,2018-09-14 16:24:12,"0,115s",PASSED
+delay,Firefox 62.0,,2018-09-14 16:24:12,2018-09-14 16:24:13,"1,009s",PASSED
+sendKeys,Firefox 62.0,,2018-09-14 16:24:13,2018-09-14 16:24:14,"0,051s",PASSED
+,,,,,,
+Test Cases/Dashboard,Firefox 62.0,,2018-09-14 16:24:16,2018-09-14 16:24:20,"4,294s",PASSED
+"Statement - maps = [com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_destinationQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_correlationID), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflowdashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflow), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_transfersearch), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_setting), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_monitordashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_logout), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter)]",Firefox 62.0,,2018-09-14 16:24:16,2018-09-14 16:24:16,"0,063s",PASSED
+Statement - total = 0,Firefox 62.0,,2018-09-14 16:24:16,2018-09-14 16:24:16,"0,006s",PASSED
+Statement - ok = 0,Firefox 62.0,,2018-09-14 16:24:16,2018-09-14 16:24:16,"0,007s",PASSED
+Statement - ko = 0,Firefox 62.0,,2018-09-14 16:24:16,2018-09-14 16:24:16,"0,008s",PASSED
+Statement - For (def element : maps),Firefox 62.0,,2018-09-14 16:24:16,2018-09-14 16:24:18,"1,912s",PASSED
+"Statement - println(""END TEST"")",Firefox 62.0,,2018-09-14 16:24:18,2018-09-14 16:24:18,"0,010s",PASSED
+"Statement - println(""> TOTALE:"" + total)",Firefox 62.0,,2018-09-14 16:24:18,2018-09-14 16:24:18,"0,036s",PASSED
+"Statement - println(""> OK:"" + ok)",Firefox 62.0,,2018-09-14 16:24:18,2018-09-14 16:24:18,"0,010s",PASSED
+"Statement - println(""> KO:"" + ko)",Firefox 62.0,,2018-09-14 16:24:18,2018-09-14 16:24:18,"0,012s",PASSED
+,,,,,,
+Test Cases/DashboardPeerServer,Firefox 62.0,,2018-09-14 16:24:20,2018-09-14 16:24:28,"7,977s",PASSED
+comment,Firefox 62.0,,2018-09-14 16:24:20,2018-09-14 16:24:20,"0,023s",PASSED
+waitForElementVisible,Firefox 62.0,,2018-09-14 16:24:20,2018-09-14 16:24:20,"0,108s",PASSED
+verifyElementVisible,Firefox 62.0,,2018-09-14 16:24:20,2018-09-14 16:24:20,"0,077s",PASSED
+verifyElementVisible,Firefox 62.0,,2018-09-14 16:24:20,2018-09-14 16:24:20,"0,066s",PASSED
+verifyElementVisible,Firefox 62.0,,2018-09-14 16:24:20,2018-09-14 16:24:21,"0,050s",PASSED
+click,Firefox 62.0,,2018-09-14 16:24:21,2018-09-14 16:24:21,"0,298s",PASSED
+waitForElementPresent,Firefox 62.0,,2018-09-14 16:24:21,2018-09-14 16:24:21,"0,023s",PASSED
+verifyElementVisible,Firefox 62.0,,2018-09-14 16:24:21,2018-09-14 16:24:21,"0,090s",PASSED
+verifyElementNotPresent,Firefox 62.0,,2018-09-14 16:24:21,2018-09-14 16:24:21,"0,083s",PASSED
+verifyElementPresent,Firefox 62.0,,2018-09-14 16:24:21,2018-09-14 16:24:21,"0,020s",PASSED
+verifyElementVisible,Firefox 62.0,,2018-09-14 16:24:21,2018-09-14 16:24:21,"0,066s",PASSED
+comment,Firefox 62.0,,2018-09-14 16:24:21,2018-09-14 16:24:21,"0,012s",PASSED
+verifyElementVisible,Firefox 62.0,,2018-09-14 16:24:21,2018-09-14 16:24:21,"0,058s",PASSED
+verifyElementVisible,Firefox 62.0,,2018-09-14 16:24:21,2018-09-14 16:24:21,"0,070s",PASSED
+verifyElementVisible,Firefox 62.0,,2018-09-14 16:24:21,2018-09-14 16:24:21,"0,048s",PASSED
+verifyElementPresent,Firefox 62.0,,2018-09-14 16:24:21,2018-09-14 16:24:21,"0,024s",PASSED
+comment,Firefox 62.0,,2018-09-14 16:24:21,2018-09-14 16:24:21,"0,018s",PASSED
+verifyElementVisible,Firefox 62.0,,2018-09-14 16:24:21,2018-09-14 16:24:21,"0,052s",PASSED
+comment,Firefox 62.0,,2018-09-14 16:24:21,2018-09-14 16:24:21,"0,011s",PASSED
+click,Firefox 62.0,,2018-09-14 16:24:21,2018-09-14 16:24:22,"0,286s",PASSED
+waitForElementVisible,Firefox 62.0,,2018-09-14 16:24:22,2018-09-14 16:24:22,"0,618s",PASSED
+comment,Firefox 62.0,,2018-09-14 16:24:22,2018-09-14 16:24:22,"0,018s",PASSED
+verifyElementPresent,Firefox 62.0,,2018-09-14 16:24:22,2018-09-14 16:24:22,"0,024s",PASSED
+verifyElementPresent,Firefox 62.0,,2018-09-14 16:24:22,2018-09-14 16:24:22,"0,025s",PASSED
+verifyElementPresent,Firefox 62.0,,2018-09-14 16:24:22,2018-09-14 16:24:22,"0,028s",PASSED
+verifyElementPresent,Firefox 62.0,,2018-09-14 16:24:22,2018-09-14 16:24:22,"0,025s",PASSED
+click,Firefox 62.0,,2018-09-14 16:24:22,2018-09-14 16:24:23,"0,413s",PASSED
+waitForElementPresent,Firefox 62.0,,2018-09-14 16:24:23,2018-09-14 16:24:23,"0,032s",PASSED
+verifyElementPresent,Firefox 62.0,,2018-09-14 16:24:23,2018-09-14 16:24:23,"0,023s",PASSED
+verifyElementPresent,Firefox 62.0,,2018-09-14 16:24:23,2018-09-14 16:24:23,"0,029s",PASSED
+verifyElementPresent,Firefox 62.0,,2018-09-14 16:24:23,2018-09-14 16:24:23,"0,024s",PASSED
+verifyElementPresent,Firefox 62.0,,2018-09-14 16:24:23,2018-09-14 16:24:23,"0,027s",PASSED
+verifyElementPresent,Firefox 62.0,,2018-09-14 16:24:23,2018-09-14 16:24:23,"0,025s",PASSED
+verifyElementPresent,Firefox 62.0,,2018-09-14 16:24:23,2018-09-14 16:24:23,"0,019s",PASSED
+verifyElementPresent,Firefox 62.0,,2018-09-14 16:24:23,2018-09-14 16:24:23,"0,025s",PASSED
+verifyElementPresent,Firefox 62.0,,2018-09-14 16:24:23,2018-09-14 16:24:23,"0,027s",PASSED
+verifyElementPresent,Firefox 62.0,,2018-09-14 16:24:23,2018-09-14 16:24:23,"0,021s",PASSED
+delay,Firefox 62.0,,2018-09-14 16:24:23,2018-09-14 16:24:25,"2,010s",PASSED
+click,Firefox 62.0,,2018-09-14 16:24:25,2018-09-14 16:24:25,"0,250s",PASSED
+waitForElementNotPresent,Firefox 62.0,,2018-09-14 16:24:25,2018-09-14 16:24:25,"0,038s",PASSED
+comment,Firefox 62.0,,2018-09-14 16:24:25,2018-09-14 16:24:25,"0,012s",PASSED
+click,Firefox 62.0,,2018-09-14 16:24:25,2018-09-14 16:24:26,"0,257s",PASSED
+waitForElementNotVisible,Firefox 62.0,,2018-09-14 16:24:26,2018-09-14 16:24:26,"0,126s",PASSED
+,,,,,,
+Test Cases/DashboardTransportFilter,Firefox 62.0,,2018-09-14 16:24:28,2018-09-14 16:24:34,"5,964s",PASSED
+Statement - select_status = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/transferStatusCLICK),Firefox 62.0,,2018-09-14 16:24:28,2018-09-14 16:24:28,"0,012s",PASSED
+"Statement - optionMap = [""SUBMITTED"":""li_SUBMITTED"", ""SUSPENDED"":""li_SUSPENDED"", ""RESUMED"":""li_RESUMED"", ""STARTED"":""li_STARTED"", ""STARTED_RETRY"":""li_STARTED_RETRY"", ... ]",Firefox 62.0,,2018-09-14 16:24:28,2018-09-14 16:24:28,"0,006s",PASSED
+"Statement - optionMap.each({ java.lang.Object optionIndex, java.lang.Object optionsValue -> ... })",Firefox 62.0,,2018-09-14 16:24:28,2018-09-14 16:24:31,"2,969s",PASSED
+click,Firefox 62.0,,2018-09-14 16:24:31,2018-09-14 16:24:31,"0,232s",PASSED
+click,Firefox 62.0,,2018-09-14 16:24:31,2018-09-14 16:24:31,"0,236s",PASSED
+Statement - btn_clear = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter),Firefox 62.0,,2018-09-14 16:24:31,2018-09-14 16:24:31,"0,013s",PASSED
+Statement - btn_apply = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter),Firefox 62.0,,2018-09-14 16:24:31,2018-09-14 16:24:32,"0,008s",PASSED
+Statement - input_transferStatus = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus),Firefox 62.0,,2018-09-14 16:24:32,2018-09-14 16:24:32,"0,011s",PASSED
+click,Firefox 62.0,,2018-09-14 16:24:32,2018-09-14 16:24:32,"0,259s",PASSED
+,,,,,,
+Test Cases/DashboardTransportDockedCounters,Firefox 62.0,,2018-09-14 16:24:34,2018-09-14 16:24:37,"2,975s",PASSED
+"Statement - [""SB"", ""ST"", ""SR"", ""SU"", ""RS"", ""FR""].each({ -> ... })",Firefox 62.0,,2018-09-14 16:24:34,2018-09-14 16:24:35,"0,811s",PASSED
+,,,,,,
+Test Cases/MenuSettings,Firefox 62.0,,2018-09-14 16:24:37,2018-09-14 16:24:43,"6,523s",PASSED
+Statement - btn_dash = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(GhibliDashboard/btn_monitordashboard),Firefox 62.0,,2018-09-14 16:24:37,2018-09-14 16:24:37,"0,017s",PASSED
+"Statement - css = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(btn_dash, ""class"", STOP_ON_FAILURE)",Firefox 62.0,,2018-09-14 16:24:37,2018-09-14 16:24:37,"0,050s",PASSED
+Statement - isPressed = css.contains(btn_pressed),Firefox 62.0,,2018-09-14 16:24:37,2018-09-14 16:24:37,"0,010s",PASSED
+Statement - If (isPressed == false),Firefox 62.0,,2018-09-14 16:24:37,2018-09-14 16:24:37,"0,019s",PASSED
+verifyElementNotVisible,Firefox 62.0,,2018-09-14 16:24:37,2018-09-14 16:24:37,"0,071s",PASSED
+click,Firefox 62.0,,2018-09-14 16:24:37,2018-09-14 16:24:38,"0,902s",PASSED
+waitForElementPresent,Firefox 62.0,,2018-09-14 16:24:38,2018-09-14 16:24:38,"0,043s",PASSED
+verifyElementVisible,Firefox 62.0,,2018-09-14 16:24:38,2018-09-14 16:24:38,"0,058s",PASSED
+"Statement - element = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SettingsMenu/Collection Tree Text), waitShort)",Firefox 62.0,,2018-09-14 16:24:38,2018-09-14 16:24:38,"0,055s",PASSED
+Statement - element.each({ java.lang.Object el -> ... }),Firefox 62.0,,2018-09-14 16:24:38,2018-09-14 16:24:38,"0,123s",PASSED
+"Statement - elementQtip = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SettingsMenu/Collection Tree), 10)",Firefox 62.0,,2018-09-14 16:24:38,2018-09-14 16:24:38,"0,035s",PASSED
+Statement - elementQtip.each({ java.lang.Object elW -> ... }),Firefox 62.0,,2018-09-14 16:24:38,2018-09-14 16:24:41,"2,852s",PASSED
+,,,,,,
+Test Cases/Logout,Firefox 62.0,,2018-09-14 16:24:43,2018-09-14 16:24:46,"2,243s",PASSED
+Statement - test = false,Firefox 62.0,,2018-09-14 16:24:43,2018-09-14 16:24:43,"0,005s",PASSED
+"Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(GhibliDashboard/btn_logout), 1)",Firefox 62.0,,2018-09-14 16:24:43,2018-09-14 16:24:43,"0,020s",PASSED
+Statement - assert test == true,Firefox 62.0,,2018-09-14 16:24:43,2018-09-14 16:24:43,"0,008s",PASSED

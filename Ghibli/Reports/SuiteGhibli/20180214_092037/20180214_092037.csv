@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SuiteGhibli,Firefox 57.0,,2018-02-14 09:20:48,2018-02-14 09:21:13,"24,602s",FAILED
+,,,,,,
+Test Cases/Login,Firefox 57.0,,2018-02-14 09:20:49,2018-02-14 09:21:05,"16,133s",PASSED
+openBrowser,Firefox 57.0,,2018-02-14 09:20:50,2018-02-14 09:21:02,"12,684s",PASSED
+waitForPageLoad,Firefox 57.0,,2018-02-14 09:21:02,2018-02-14 09:21:03,"0,306s",PASSED
+setText,Firefox 57.0,,2018-02-14 09:21:03,2018-02-14 09:21:03,"0,244s",PASSED
+setText,Firefox 57.0,,2018-02-14 09:21:03,2018-02-14 09:21:03,"0,104s",PASSED
+Statement - text1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/div_Incorrect Username or Pass)),Firefox 57.0,,2018-02-14 09:21:03,2018-02-14 09:21:03,"0,129s",PASSED
+Statement - assert text1 == true,Firefox 57.0,,2018-02-14 09:21:03,2018-02-14 09:21:03,"0,003s",PASSED
+doubleClick,Firefox 57.0,,2018-02-14 09:21:03,2018-02-14 09:21:03,"0,285s",PASSED
+waitForElementPresent,Firefox 57.0,,2018-02-14 09:21:03,2018-02-14 09:21:03,"0,095s",PASSED
+"Statement - text2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(""Incorrect Username or Password"", false)",Firefox 57.0,,2018-02-14 09:21:03,2018-02-14 09:21:03,"0,096s",PASSED
+Statement - assert text2 == true,Firefox 57.0,,2018-02-14 09:21:03,2018-02-14 09:21:03,"0,000s",PASSED
+setText,Firefox 57.0,,2018-02-14 09:21:03,2018-02-14 09:21:04,"0,128s",PASSED
+setText,Firefox 57.0,,2018-02-14 09:21:04,2018-02-14 09:21:04,"0,075s",PASSED
+doubleClick,Firefox 57.0,,2018-02-14 09:21:04,2018-02-14 09:21:04,"0,228s",PASSED
+delay,Firefox 57.0,,2018-02-14 09:21:04,2018-02-14 09:21:05,"1,038s",PASSED
+,,,,,,
+Test Cases/Dashboard,Firefox 57.0,,2018-02-14 09:21:05,2018-02-14 09:21:12,"7,349s",FAILED
+"Statement - maps = [com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_sourceQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_destinationQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_correlationID), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflowdashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflow), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_transfersearch), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_setting), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_monitordashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_logout), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter)]",Firefox 57.0,,2018-02-14 09:21:05,2018-02-14 09:21:05,"0,080s",PASSED
+Statement - total = 0,Firefox 57.0,,2018-02-14 09:21:05,2018-02-14 09:21:05,"0,001s",PASSED
+Statement - ok = 0,Firefox 57.0,,2018-02-14 09:21:05,2018-02-14 09:21:05,"0,000s",PASSED
+Statement - ko = 0,Firefox 57.0,,2018-02-14 09:21:05,2018-02-14 09:21:05,"0,001s",PASSED
+Statement - For (def element : maps),Firefox 57.0,,2018-02-14 09:21:05,2018-02-14 09:21:06,"0,518s",PASSED
+"Statement - println(""END TEST"")",Firefox 57.0,,2018-02-14 09:21:06,2018-02-14 09:21:06,"0,003s",PASSED
+"Statement - println(""> TOTALE:"" + total)",Firefox 57.0,,2018-02-14 09:21:06,2018-02-14 09:21:06,"0,001s",PASSED
+"Statement - println(""> OK:"" + ok)",Firefox 57.0,,2018-02-14 09:21:06,2018-02-14 09:21:06,"0,001s",PASSED
+"Statement - println(""> KO:"" + ko)",Firefox 57.0,,2018-02-14 09:21:06,2018-02-14 09:21:06,"0,000s",PASSED
+openBrowser,Firefox 57.0,,2018-02-14 09:21:06,2018-02-14 09:21:12,"6,291s",PASSED
+click,Firefox 57.0,,2018-02-14 09:21:12,2018-02-14 09:21:12,"0,087s",FAILED

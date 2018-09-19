@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SuiteGhibli" time="73" tests="5" failures="2" errors="0">
+   <testsuite name="SuiteGhibli" tests="5" failures="2" errors="0" time="73" timestamp="2018-09-07 17:19:41" hostname="luca.bottoni - MARVELPC.primeurad.com" id="Test Suites/SuiteGhibli">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180907_171939"/>
+         <property name="logFiles" value="C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180907_171939\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180907_171939\\1536333638557.png, C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180907_171939\\1536333638927.png"/>
+         <property name="hostName" value="luca.bottoni - MARVELPC.primeurad.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.81"/>
+         <property name="hostAddress" value="192.168.15.7"/>
+         <property name="sessionId" value="b6c8552b89c21e3d95f9a2619ee1e5a4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/OpenBrowser" classname="Test Cases/OpenBrowser" status="PASSED">
+         <system-out><![CDATA[2018-09-07 17:19:42 - [TEST_CASE][PASSED] - Test Cases/OpenBrowser: Test Cases/OpenBrowser
+
+2018-09-07 17:19:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-07 17:19:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-07 17:19:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-07 17:19:47 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-07 17:19:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.180.199:8080/SPENT' successfully
+
+2018-09-07 17:19:50 - [MESSAGE][PASSED] - Navigate to 'http://192.168.180.199:8080/SPENT' successfully
+
+2018-09-07 17:19:50 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliLoginPage/input_username' is present
+
+2018-09-07 17:19:50 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliLoginPage/input_username' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2018-09-07 17:19:52 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-09-07 17:19:53 - [TEST_STEP][PASSED] - Statement - input_login = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_username): Finding Test Object with id 'Object Repository/GhibliLoginPage/input_username'
+
+2018-09-07 17:19:53 - [TEST_STEP][PASSED] - Statement - input_pwd = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_password): Finding Test Object with id 'Object Repository/GhibliLoginPage/input_password'
+
+2018-09-07 17:19:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GhibliLoginPage/input_username' is present
+
+2018-09-07 17:19:53 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliLoginPage/input_username' is present
+
+2018-09-07 17:19:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GhibliLoginPage/input_password' is present
+
+2018-09-07 17:19:53 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliLoginPage/input_password' is present
+
+2018-09-07 17:19:53 - [TEST_STEP][PASSED] - setText: Text 'luca.bottoni' is set on object 'Object Repository/GhibliLoginPage/input_username'
+
+2018-09-07 17:19:53 - [MESSAGE][PASSED] - Text 'luca.bottoni' is set on object 'Object Repository/GhibliLoginPage/input_username'
+
+2018-09-07 17:19:53 - [TEST_STEP][PASSED] - setText: Text 'ghibliXXX' is set on object 'Object Repository/GhibliLoginPage/input_password'
+
+2018-09-07 17:19:53 - [MESSAGE][PASSED] - Text 'ghibliXXX' is set on object 'Object Repository/GhibliLoginPage/input_password'
+
+2018-09-07 17:19:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-07 17:19:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-07 17:19:55 - [TEST_STEP][PASSED] - Statement - text1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/div_Incorrect Username or Pass)): Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is NOT visible
+
+2018-09-07 17:19:55 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is NOT visible
+
+2018-09-07 17:19:55 - [TEST_STEP][PASSED] - Statement - assert text1 == true: null
+
+2018-09-07 17:19:55 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/GhibliLoginPage/LoginButton' is double clicked on
+
+2018-09-07 17:19:55 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliLoginPage/LoginButton' is double clicked on
+
+2018-09-07 17:19:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-07 17:19:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-07 17:19:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is present
+
+2018-09-07 17:19:57 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is present
+
+2018-09-07 17:19:57 - [TEST_STEP][PASSED] - Statement - text2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent("Incorrect Username or Password", false): Text 'Incorrect Username or Password' is present on page 
+
+2018-09-07 17:19:58 - [MESSAGE][PASSED] - Text 'Incorrect Username or Password' is present on page 
+
+2018-09-07 17:19:58 - [TEST_STEP][PASSED] - Statement - assert text2 == true: null
+
+2018-09-07 17:19:58 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/GhibliLoginPage/input_username' is focused
+
+2018-09-07 17:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliLoginPage/input_username' is focused
+
+2018-09-07 17:19:58 - [TEST_STEP][PASSED] - setText: Text 'luca.bottoni' is set on object 'Object Repository/GhibliLoginPage/input_username'
+
+2018-09-07 17:19:58 - [MESSAGE][PASSED] - Text 'luca.bottoni' is set on object 'Object Repository/GhibliLoginPage/input_username'
+
+2018-09-07 17:19:58 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-07 17:19:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-07 17:19:59 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/GhibliLoginPage/input_password' is focused
+
+2018-09-07 17:19:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliLoginPage/input_password' is focused
+
+2018-09-07 17:19:59 - [TEST_STEP][PASSED] - setText: Text 'Primeur' is set on object 'Object Repository/GhibliLoginPage/input_password'
+
+2018-09-07 17:19:59 - [MESSAGE][PASSED] - Text 'Primeur' is set on object 'Object Repository/GhibliLoginPage/input_password'
+
+2018-09-07 17:19:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-09-07 17:20:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-07 17:20:00 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/GhibliLoginPage/input_password'
+
+2018-09-07 17:20:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/GhibliLoginPage/input_password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard" classname="Test Cases/Dashboard" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: Assertion failed: 
+
+assert test == true
+       |    |
+       |    false
+       false
+
+	at org.codehaus.groovy.runtime.InvokerHelper.assertFailed(InvokerHelper.java:402)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.assertFailed(ScriptBytecodeAdapter.java:650)
+	at Script1518430891599.run(Script1518430891599.groovy:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1536333579224.run(TempTestSuite1536333579224.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-07 17:20:02 - [TEST_CASE][FAILED] - Test Cases/Dashboard: Test Cases/Dashboard FAILED because (of) (Stack trace: Assertion failed: 
+
+assert test == true
+       |    |
+       |    false
+       false
+
+	at org.codehaus.groovy.runtime.InvokerHelper.assertFailed(InvokerHelper.java:402)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.assertFailed(ScriptBytecodeAdapter.java:650)
+	at Script1518430891599.run(Script1518430891599.groovy:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1536333579224.run(TempTestSuite1536333579224.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - maps = [com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_sourceQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_destinationQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_correlationID), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflowdashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflow), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_transfersearch), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_setting), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_monitordashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_logout), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter)]: Finding Test Object with id 'Object Repository/GhibliDashboard/btn_applyfilter'
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - total = 0: null
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - ok = 0: null
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - ko = 0: null
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - For (def element : maps): null
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - test = false: null
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1): Object 'Object Repository/GhibliDashboard/input_transferStatus' is present
+
+2018-09-07 17:20:03 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/input_transferStatus' is present
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - If (test == true): null
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - (ok++): null
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - assert test == true: null
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - (total++): null
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - tag = element.findPropertyValue("tag", false): null
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - id = element.getObjectId(): null
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - test = false: null
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - assert tag != "": null
+
+2018-09-07 17:20:03 - [TEST_STEP][PASSED] - Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1): Object 'Object Repository/GhibliDashboard/input_sourceQueueManager' is not present after 1 second(s)
+
+2018-09-07 17:20:04 - [MESSAGE][WARNING] - Object 'Object Repository/GhibliDashboard/input_sourceQueueManager' is not present after 1 second(s)
+
+2018-09-07 17:20:04 - [TEST_STEP][PASSED] - Statement - If (test == true): null
+
+2018-09-07 17:20:04 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-09-07 17:20:04 - [TEST_STEP][PASSED] - Statement - (ko++): null
+
+2018-09-07 17:20:04 - [TEST_STEP][PASSED] - Statement - assert test == true: null]]></system-out>
+         <system-err><![CDATA[2018-09-07 17:20:02 - [TEST_CASE][FAILED] - Test Cases/Dashboard: Test Cases/Dashboard FAILED because (of) (Stack trace: Assertion failed: 
+
+assert test == true
+       |    |
+       |    false
+       false
+
+	at org.codehaus.groovy.runtime.InvokerHelper.assertFailed(InvokerHelper.java:402)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.assertFailed(ScriptBytecodeAdapter.java:650)
+	at Script1518430891599.run(Script1518430891599.groovy:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1536333579224.run(TempTestSuite1536333579224.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DashboardPeerServer" classname="Test Cases/DashboardPeerServer" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/singlepeer_container' is visible (Root cause: Web element with id: 'Object Repository/GhibliDashboard/Dashboard-PeerServer/singlepeer_container' located by 'By.xpath: (//*[contains(@class,&quot;kt_singlepeer&quot;)])[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$13.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1528728928664.run(Script1528728928664.groovy:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1536333579224.run(TempTestSuite1536333579224.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-07 17:20:06 - [TEST_CASE][FAILED] - Test Cases/DashboardPeerServer: Test Cases/DashboardPeerServer FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/singlepeer_container' is visible (Root cause: Web element with id: 'Object Repository/GhibliDashboard/Dashboard-PeerServer/singlepeer_container' located by 'By.xpath: (//*[contains(@class,"kt_singlepeer")])[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$13.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1528728928664.run(Script1528728928664.groovy:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1536333579224.run(TempTestSuite1536333579224.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-07 17:20:06 - [TEST_STEP][PASSED] - comment: verifiche sul container del cluster
+
+2018-09-07 17:20:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/lbl_peerlist_clustername' is visible
+
+2018-09-07 17:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/lbl_peerlist_clustername' is visible
+
+2018-09-07 17:20:07 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/lbl_peerlist_clustername' is visible
+
+2018-09-07 17:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/lbl_peerlist_clustername' is visible
+
+2018-09-07 17:20:07 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/btn_peerlist_refresh' is visible
+
+2018-09-07 17:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/btn_peerlist_refresh' is visible
+
+2018-09-07 17:20:07 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/btn_peerlist_pause' is visible
+
+2018-09-07 17:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/btn_peerlist_pause' is visible
+
+2018-09-07 17:20:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GhibliDashboard/Dashboard-PeerServer/btn_peerlist_pause' is clicked on
+
+2018-09-07 17:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/Dashboard-PeerServer/btn_peerlist_pause' is clicked on
+
+2018-09-07 17:20:07 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/btn_peerlist_play' is present
+
+2018-09-07 17:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/btn_peerlist_play' is present
+
+2018-09-07 17:20:07 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/btn_peerlist_play' is visible
+
+2018-09-07 17:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/btn_peerlist_play' is visible
+
+2018-09-07 17:20:07 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/GhibliDashboard/Dashboard-PeerServer/btn_peerlist_pause' located by 'By.xpath: //a[contains(@class,"kt_peerlist_pause")]' is not present after '30' second(s)
+
+2018-09-07 17:20:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-07 17:20:07 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/GhibliDashboard/Dashboard-PeerServer/btn_peerlist_pause' located by 'By.xpath: //a[contains(@class,"kt_peerlist_pause")]' is not present after '30' second(s)
+
+2018-09-07 17:20:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/serverpeer_progressbar_reload' is present
+
+2018-09-07 17:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/serverpeer_progressbar_reload' is present
+
+2018-09-07 17:20:07 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/serverpeer_progressbar_reload' is visible
+
+2018-09-07 17:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/serverpeer_progressbar_reload' is visible
+
+2018-09-07 17:20:07 - [TEST_STEP][PASSED] - comment: inizia la verifica sul primo server nella lista dei peer
+
+2018-09-07 17:20:07 - [TEST_STEP][FAILED] - verifyElementVisible: Unable to verify object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/singlepeer_container' is visible (Root cause: Web element with id: 'Object Repository/GhibliDashboard/Dashboard-PeerServer/singlepeer_container' located by 'By.xpath: (//*[contains(@class,"kt_singlepeer")])[1]' not found)
+
+2018-09-07 17:20:38 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/GhibliDashboard/Dashboard-PeerServer/singlepeer_container' located by 'By.xpath: (//*[contains(@class,"kt_singlepeer")])[1]' not found
+[[ATTACHMENT|C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180907_171939\\1536333638557.png]]
+
+2018-09-07 17:20:39 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/singlepeer_container' is visible (Root cause: Web element with id: 'Object Repository/GhibliDashboard/Dashboard-PeerServer/singlepeer_container' located by 'By.xpath: (//*[contains(@class,"kt_singlepeer")])[1]' not found)
+[[ATTACHMENT|C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\SuiteGhibli\\20180907_171939\\1536333638927.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-07 17:20:06 - [TEST_CASE][FAILED] - Test Cases/DashboardPeerServer: Test Cases/DashboardPeerServer FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/GhibliDashboard/Dashboard-PeerServer/singlepeer_container' is visible (Root cause: Web element with id: 'Object Repository/GhibliDashboard/Dashboard-PeerServer/singlepeer_container' located by 'By.xpath: (//*[contains(@class,"kt_singlepeer")])[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$13.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1528728928664.run(Script1528728928664.groovy:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1536333579224.run(TempTestSuite1536333579224.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DashboardTransportFilter" classname="Test Cases/DashboardTransportFilter" status="PASSED">
+         <system-out><![CDATA[2018-09-07 17:20:41 - [TEST_CASE][PASSED] - Test Cases/DashboardTransportFilter: Test Cases/DashboardTransportFilter
+
+2018-09-07 17:20:41 - [TEST_STEP][PASSED] - Statement - select_status = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/transferStatusCLICK): Finding Test Object with id 'Object Repository/GhibliDashboard/transferStatusCLICK'
+
+2018-09-07 17:20:41 - [TEST_STEP][PASSED] - Statement - optionMap = ["SUBMITTED":"li_SUBMITTED", "SUSPENDED":"li_SUSPENDED", "RESUMED":"li_RESUMED", "STARTED":"li_STARTED", "STARTED_RETRY":"li_STARTED_RETRY", ... ]: null
+
+2018-09-07 17:20:41 - [TEST_STEP][PASSED] - Statement - optionMap.each({ java.lang.Object optionIndex, java.lang.Object optionsValue -> ... }): Object: 'Object Repository/GhibliDashboard/transferStatusOptions/li_FAILED_RETRY' is clicked on
+
+2018-09-07 17:20:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusCLICK' is clicked on
+
+2018-09-07 17:20:41 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/transferStatusOptions/li_SUBMITTED' is present
+
+2018-09-07 17:20:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusOptions/li_SUBMITTED' is clicked on
+
+2018-09-07 17:20:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusCLICK' is clicked on
+
+2018-09-07 17:20:41 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/transferStatusOptions/li_SUSPENDED' is present
+
+2018-09-07 17:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusOptions/li_SUSPENDED' is clicked on
+
+2018-09-07 17:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusCLICK' is clicked on
+
+2018-09-07 17:20:42 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/transferStatusOptions/li_RESUMED' is present
+
+2018-09-07 17:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusOptions/li_RESUMED' is clicked on
+
+2018-09-07 17:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusCLICK' is clicked on
+
+2018-09-07 17:20:42 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/transferStatusOptions/li_STARTED' is present
+
+2018-09-07 17:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusOptions/li_STARTED' is clicked on
+
+2018-09-07 17:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusCLICK' is clicked on
+
+2018-09-07 17:20:42 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/transferStatusOptions/li_STARTED_RETRY' is present
+
+2018-09-07 17:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusOptions/li_STARTED_RETRY' is clicked on
+
+2018-09-07 17:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusCLICK' is clicked on
+
+2018-09-07 17:20:42 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/transferStatusOptions/li_FAILED_RETRY' is present
+
+2018-09-07 17:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusOptions/li_FAILED_RETRY' is clicked on
+
+2018-09-07 17:20:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GhibliDashboard/transferStatusCLICK' is clicked on
+
+2018-09-07 17:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusCLICK' is clicked on
+
+2018-09-07 17:20:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GhibliDashboard/transferStatusOptions/li_STARTED' is clicked on
+
+2018-09-07 17:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/transferStatusOptions/li_STARTED' is clicked on
+
+2018-09-07 17:20:42 - [TEST_STEP][PASSED] - Statement - btn_clear = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter): Finding Test Object with id 'Object Repository/GhibliDashboard/btn_clearfilter'
+
+2018-09-07 17:20:42 - [TEST_STEP][PASSED] - Statement - btn_apply = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter): Finding Test Object with id 'Object Repository/GhibliDashboard/btn_applyfilter'
+
+2018-09-07 17:20:42 - [TEST_STEP][PASSED] - Statement - input_transferStatus = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus): Finding Test Object with id 'Object Repository/GhibliDashboard/input_transferStatus'
+
+2018-09-07 17:20:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GhibliDashboard/btn_clearfilter' is clicked on
+
+2018-09-07 17:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/btn_clearfilter' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MenuSettings" classname="Test Cases/MenuSettings" status="PASSED">
+         <system-out><![CDATA[2018-09-07 17:20:45 - [TEST_CASE][PASSED] - Test Cases/MenuSettings: Test Cases/MenuSettings
+
+2018-09-07 17:20:45 - [TEST_STEP][PASSED] - Statement - btn_dash = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(GhibliDashboard/btn_monitordashboard): Finding Test Object with id 'Object Repository/GhibliDashboard/btn_monitordashboard'
+
+2018-09-07 17:20:45 - [TEST_STEP][PASSED] - Statement - css = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(btn_dash, "class", STOP_ON_FAILURE): Attribute 'class' of object 'Object Repository/GhibliDashboard/btn_monitordashboard' is: 'x-btn kt_btn_dashboard_toolbar_monitordashboard svgbutton x-unselectable x-box-item x-btn-default-small x-icon x-btn-icon x-btn-default-small-icon x-pressed x-btn-pressed x-btn-default-small-pressed'
+
+2018-09-07 17:20:45 - [MESSAGE][PASSED] - Attribute 'class' of object 'Object Repository/GhibliDashboard/btn_monitordashboard' is: 'x-btn kt_btn_dashboard_toolbar_monitordashboard svgbutton x-unselectable x-box-item x-btn-default-small x-icon x-btn-icon x-btn-default-small-icon x-pressed x-btn-pressed x-btn-default-small-pressed'
+
+2018-09-07 17:20:45 - [TEST_STEP][PASSED] - Statement - isPressed = css.contains(btn_pressed): null
+
+2018-09-07 17:20:45 - [TEST_STEP][PASSED] - Statement - If (isPressed == false): null
+
+2018-09-07 17:20:45 - [TEST_STEP][PASSED] - verifyElementNotVisible: Object 'Object Repository/GhibliDashboard/btn_menu' is NOT visible
+
+2018-09-07 17:20:45 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/btn_menu' is NOT visible
+
+2018-09-07 17:20:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GhibliDashboard/btn_setting' is clicked on
+
+2018-09-07 17:20:46 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliDashboard/btn_setting' is clicked on
+
+2018-09-07 17:20:46 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliDashboard/btn_menu' is present
+
+2018-09-07 17:20:46 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/btn_menu' is present
+
+2018-09-07 17:20:46 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/SettingsMenu/kt_settings_menu' is visible
+
+2018-09-07 17:20:46 - [MESSAGE][PASSED] - Object 'Object Repository/SettingsMenu/kt_settings_menu' is visible
+
+2018-09-07 17:20:46 - [TEST_STEP][PASSED] - Statement - element = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SettingsMenu/Collection Tree Text), waitShort): Found 11 web elements with id: 'Object Repository/SettingsMenu/Collection Tree Text' located by 'By.xpath: //*[contains(@class, 'kt_btn_settings_menu_')]//span[contains(@class,"x-btn-inner x-btn-inner-center")]' in '5' second(s)
+
+2018-09-07 17:20:46 - [TEST_STEP][PASSED] - Statement - element.each({ java.lang.Object el -> ... }): null
+
+2018-09-07 17:20:46 - [TEST_STEP][PASSED] - Statement - elementQtip = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SettingsMenu/Collection Tree), 10): Found 11 web elements with id: 'Object Repository/SettingsMenu/Collection Tree' located by 'By.xpath: //a[contains(@class, 'kt_btn_settings_menu_')]' in '10' second(s)
+
+2018-09-07 17:20:46 - [TEST_STEP][PASSED] - Statement - elementQtip.each({ java.lang.Object elW -> ... }): Attribute 'data-qtip' of object 'Elments_A_button-1048' is: 'Untrusted Cache'
+
+2018-09-07 17:20:46 - [MESSAGE][PASSED] - Object: 'Elments_button-1035' is hovered
+
+2018-09-07 17:20:47 - [MESSAGE][PASSED] - Object 'Object Repository/SettingsMenu/QuickTipText' is visible
+
+2018-09-07 17:20:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/SettingsMenu/QuickTipText' is: 'Settings Home'
+
+2018-09-07 17:20:47 - [MESSAGE][PASSED] - Text of object 'Elments_A_button-1035' is: 'HOME'
+
+2018-09-07 17:20:47 - [MESSAGE][PASSED] - Attribute 'data-qtip' of object 'Elments_A_button-1035' is: 'Settings Home'
+
+2018-09-07 17:20:47 - [MESSAGE][PASSED] - Object: 'Elments_button-1037' is hovered
+
+2018-09-07 17:20:47 - [MESSAGE][PASSED] - Object 'Object Repository/SettingsMenu/QuickTipText' is visible
+
+2018-09-07 17:20:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/SettingsMenu/QuickTipText' is: 'Spazio Configurator'
+
+2018-09-07 17:20:47 - [MESSAGE][PASSED] - Text of object 'Elments_A_button-1037' is: 'SPAZIO CONFIGURATOR'
+
+2018-09-07 17:20:47 - [MESSAGE][PASSED] - Attribute 'data-qtip' of object 'Elments_A_button-1037' is: 'Spazio Configurator'
+
+2018-09-07 17:20:47 - [MESSAGE][PASSED] - Object: 'Elments_button-1038' is hovered
+
+2018-09-07 17:20:47 - [MESSAGE][PASSED] - Object 'Object Repository/SettingsMenu/QuickTipText' is visible
+
+2018-09-07 17:20:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/SettingsMenu/QuickTipText' is: 'Profiler'
+
+2018-09-07 17:20:47 - [MESSAGE][PASSED] - Text of object 'Elments_A_button-1038' is: 'PROFILER'
+
+2018-09-07 17:20:47 - [MESSAGE][PASSED] - Attribute 'data-qtip' of object 'Elments_A_button-1038' is: 'Profiler'
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Object: 'Elments_button-1039' is hovered
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Object 'Object Repository/SettingsMenu/QuickTipText' is visible
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/SettingsMenu/QuickTipText' is: 'Virtual File Systems'
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Text of object 'Elments_A_button-1039' is: 'VIRTUAL FILE SYSTEMS'
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Attribute 'data-qtip' of object 'Elments_A_button-1039' is: 'Virtual File Systems'
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Object: 'Elments_button-1040' is hovered
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Object 'Object Repository/SettingsMenu/QuickTipText' is visible
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/SettingsMenu/QuickTipText' is: 'Incoming Calls'
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Text of object 'Elments_A_button-1040' is: 'INCOMING CALLS'
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Attribute 'data-qtip' of object 'Elments_A_button-1040' is: 'Incoming Calls'
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Object: 'Elments_button-1041' is hovered
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Object 'Object Repository/SettingsMenu/QuickTipText' is visible
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/SettingsMenu/QuickTipText' is: 'Cluster Management'
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Text of object 'Elments_A_button-1041' is: 'CLUSTER MANAGEMENT'
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Attribute 'data-qtip' of object 'Elments_A_button-1041' is: 'Cluster Management'
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Object: 'Elments_button-1043' is hovered
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Object 'Object Repository/SettingsMenu/QuickTipText' is visible
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/SettingsMenu/QuickTipText' is: 'Users Management'
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Text of object 'Elments_A_button-1043' is: 'USERS MANAGEMENT'
+
+2018-09-07 17:20:48 - [MESSAGE][PASSED] - Attribute 'data-qtip' of object 'Elments_A_button-1043' is: 'Users Management'
+
+2018-09-07 17:20:49 - [MESSAGE][PASSED] - Object: 'Elments_button-1044' is hovered
+
+2018-09-07 17:20:49 - [MESSAGE][PASSED] - Object 'Object Repository/SettingsMenu/QuickTipText' is visible
+
+2018-09-07 17:20:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/SettingsMenu/QuickTipText' is: 'Groups Management'
+
+2018-09-07 17:20:49 - [MESSAGE][PASSED] - Text of object 'Elments_A_button-1044' is: 'GROUPS MANAGEMENT'
+
+2018-09-07 17:20:49 - [MESSAGE][PASSED] - Attribute 'data-qtip' of object 'Elments_A_button-1044' is: 'Groups Management'
+
+2018-09-07 17:20:49 - [MESSAGE][PASSED] - Object: 'Elments_button-1046' is hovered
+
+2018-09-07 17:20:49 - [MESSAGE][PASSED] - Object 'Object Repository/SettingsMenu/QuickTipText' is visible
+
+2018-09-07 17:20:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/SettingsMenu/QuickTipText' is: 'Key Store'
+
+2018-09-07 17:20:49 - [MESSAGE][PASSED] - Text of object 'Elments_A_button-1046' is: 'KEY STORE'
+
+2018-09-07 17:20:49 - [MESSAGE][PASSED] - Attribute 'data-qtip' of object 'Elments_A_button-1046' is: 'Key Store'
+
+2018-09-07 17:20:49 - [MESSAGE][PASSED] - Object: 'Elments_button-1047' is hovered
+
+2018-09-07 17:20:49 - [MESSAGE][PASSED] - Object 'Object Repository/SettingsMenu/QuickTipText' is visible
+
+2018-09-07 17:20:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/SettingsMenu/QuickTipText' is: 'Trust Store'
+
+2018-09-07 17:20:49 - [MESSAGE][PASSED] - Text of object 'Elments_A_button-1047' is: 'TRUST STORE'
+
+2018-09-07 17:20:49 - [MESSAGE][PASSED] - Attribute 'data-qtip' of object 'Elments_A_button-1047' is: 'Trust Store'
+
+2018-09-07 17:20:49 - [MESSAGE][PASSED] - Object: 'Elments_button-1048' is hovered
+
+2018-09-07 17:20:49 - [MESSAGE][PASSED] - Object 'Object Repository/SettingsMenu/QuickTipText' is visible
+
+2018-09-07 17:20:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/SettingsMenu/QuickTipText' is: 'Untrusted Cache'
+
+2018-09-07 17:20:50 - [MESSAGE][PASSED] - Text of object 'Elments_A_button-1048' is: 'UNTRUSTED CACHE'
+
+2018-09-07 17:20:50 - [MESSAGE][PASSED] - Attribute 'data-qtip' of object 'Elments_A_button-1048' is: 'Untrusted Cache']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" classname="Test Cases/Logout" status="PASSED">
+         <system-out><![CDATA[2018-09-07 17:20:52 - [TEST_CASE][PASSED] - Test Cases/Logout: Test Cases/Logout
+
+2018-09-07 17:20:52 - [TEST_STEP][PASSED] - Statement - test = false: null
+
+2018-09-07 17:20:52 - [TEST_STEP][PASSED] - Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(GhibliDashboard/btn_logout), 1): Object 'Object Repository/GhibliDashboard/btn_logout' is present
+
+2018-09-07 17:20:52 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliDashboard/btn_logout' is present
+
+2018-09-07 17:20:52 - [TEST_STEP][PASSED] - Statement - assert test == true: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-07 17:19:41 - [TEST_SUITE][FAILED] - SuiteGhibli: Test Cases/Dashboard FAILED because (of) (Stack trace: Assertion failed: 
+
+assert test == true
+       |    |
+       |    false
+       false
+
+	at org.codehaus.groovy.runtime.InvokerHelper.assertFailed(InvokerHelper.java:402)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.assertFailed(ScriptBytecodeAdapter.java:650)
+	at Script1518430891599.run(Script1518430891599.groovy:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1536333579224.run(TempTestSuite1536333579224.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-09-07 17:19:41 - [TEST_SUITE][FAILED] - SuiteGhibli: Test Cases/Dashboard FAILED because (of) (Stack trace: Assertion failed: 
+
+assert test == true
+       |    |
+       |    false
+       false
+
+	at org.codehaus.groovy.runtime.InvokerHelper.assertFailed(InvokerHelper.java:402)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.assertFailed(ScriptBytecodeAdapter.java:650)
+	at Script1518430891599.run(Script1518430891599.groovy:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1536333579224.run(TempTestSuite1536333579224.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

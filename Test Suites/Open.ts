@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Open</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-03-09T15:18:29</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>227f4a94-c0e5-499b-8e39-e265aefb94bd</testSuiteGuid>
+   <testCaseLink>
+      <guid>2742a6f9-6939-441a-a2d4-42c5ff9bf2f2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OpenBrowser</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>14cc1564-75b6-4335-8ce5-89216fc483b6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a137b6df-1680-4dbf-823a-3a15cd3a1231</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>de60f2bf-8869-4f2a-a95f-e9ad07d8a886</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7c13e1b8-80e2-4f3e-bedb-6ca89950774f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

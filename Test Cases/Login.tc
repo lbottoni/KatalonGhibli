@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7f491c4-396c-4bb3-b19b-1717c87e8894</testCaseGuid>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>a137b6df-1680-4dbf-823a-3a15cd3a1231</id>
+      <masked>false</masked>
+      <name>waitShort</name>
+   </variable>
+   <variable>
+      <defaultValue>30</defaultValue>
+      <description></description>
+      <id>de60f2bf-8869-4f2a-a95f-e9ad07d8a886</id>
+      <masked>false</masked>
+      <name>waitMedium</name>
+   </variable>
+   <variable>
+      <defaultValue>120</defaultValue>
+      <description></description>
+      <id>7c13e1b8-80e2-4f3e-bedb-6ca89950774f</id>
+      <masked>false</masked>
+      <name>waitLong</name>
+   </variable>
+</TestCaseEntity>

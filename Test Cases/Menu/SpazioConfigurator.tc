@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SpazioConfigurator</name>
+   <tag></tag>
+   <comment>estraggo l'elenco dei nodi spazio</comment>
+   <testCaseGuid>d11edb19-f93a-413a-b715-8cea48b687a0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_server_stop</name>
+   <tag></tag>
+   <elementGuidId>34dca4cf-11af-46d6-9751-5887de14bf67</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[contains(@class,&quot;kt_serverpeer_btn_stop&quot;)])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[contains(@class,&quot;kt_serverpeer_btn_stop&quot;)])[1]</value>
+   </webElementProperties>
+</WebElementEntity>

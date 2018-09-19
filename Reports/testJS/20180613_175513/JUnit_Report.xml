@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testJS" time="45" tests="2" failures="1" errors="0">
+   <testsuite name="testJS" tests="2" failures="1" errors="0" time="45" timestamp="2018-06-13 17:55:17" hostname="luca.bottoni - LAP-PC-122.mshome.net" id="Test Suites/testJS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\testJS\\20180613_175513"/>
+         <property name="logFiles" value="C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\testJS\\20180613_175513\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\testJS\\20180613_175513\\1528905358582.png"/>
+         <property name="hostName" value="luca.bottoni - LAP-PC-122.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.87"/>
+         <property name="hostAddress" value="172.28.221.49"/>
+         <property name="sessionId" value="c14bd8ec079786c10b13d99a459b1ae7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/OpenBrowser" classname="Test Cases/OpenBrowser" status="PASSED">
+         <system-out><![CDATA[2018-06-13 17:55:18 - [TEST_CASE][PASSED] - Test Cases/OpenBrowser: Test Cases/OpenBrowser
+
+2018-06-13 17:55:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-13 17:55:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-13 17:55:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-13 17:55:28 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-13 17:55:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://ghibli-legacy.localhost' successfully
+
+2018-06-13 17:55:37 - [MESSAGE][PASSED] - Navigate to 'http://ghibli-legacy.localhost' successfully
+
+2018-06-13 17:55:37 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliLoginPage/input_username' is present
+
+2018-06-13 17:55:38 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliLoginPage/input_username' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2018-06-13 17:55:40 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-06-13 17:55:41 - [TEST_STEP][PASSED] - Statement - input_login = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_username): Finding Test Object with id 'Object Repository/GhibliLoginPage/input_username'
+
+2018-06-13 17:55:41 - [TEST_STEP][PASSED] - Statement - input_pwd = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_password): Finding Test Object with id 'Object Repository/GhibliLoginPage/input_password'
+
+2018-06-13 17:55:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GhibliLoginPage/input_username' is present
+
+2018-06-13 17:55:41 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliLoginPage/input_username' is present
+
+2018-06-13 17:55:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GhibliLoginPage/input_password' is present
+
+2018-06-13 17:55:41 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliLoginPage/input_password' is present
+
+2018-06-13 17:55:41 - [TEST_STEP][PASSED] - setText: Text 'luca.bottoni' is set on object 'Object Repository/GhibliLoginPage/input_username'
+
+2018-06-13 17:55:42 - [MESSAGE][PASSED] - Text 'luca.bottoni' is set on object 'Object Repository/GhibliLoginPage/input_username'
+
+2018-06-13 17:55:42 - [TEST_STEP][PASSED] - setText: Text 'ghibliXXX' is set on object 'Object Repository/GhibliLoginPage/input_password'
+
+2018-06-13 17:55:42 - [MESSAGE][PASSED] - Text 'ghibliXXX' is set on object 'Object Repository/GhibliLoginPage/input_password'
+
+2018-06-13 17:55:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-06-13 17:55:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-13 17:55:44 - [TEST_STEP][PASSED] - Statement - text1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/div_Incorrect Username or Pass)): Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is NOT visible
+
+2018-06-13 17:55:45 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is NOT visible
+
+2018-06-13 17:55:45 - [TEST_STEP][PASSED] - Statement - assert text1 == true: null
+
+2018-06-13 17:55:45 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/GhibliLoginPage/LoginButton' is double clicked on
+
+2018-06-13 17:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliLoginPage/LoginButton' is double clicked on
+
+2018-06-13 17:55:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-06-13 17:55:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-13 17:55:47 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is present
+
+2018-06-13 17:55:47 - [MESSAGE][PASSED] - Object 'Object Repository/GhibliLoginPage/div_Incorrect Username or Pass' is present
+
+2018-06-13 17:55:47 - [TEST_STEP][PASSED] - Statement - text2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent("Incorrect Username or Password", false): Text 'Incorrect Username or Password' is present on page 
+
+2018-06-13 17:55:47 - [MESSAGE][PASSED] - Text 'Incorrect Username or Password' is present on page 
+
+2018-06-13 17:55:47 - [TEST_STEP][PASSED] - Statement - assert text2 == true: null
+
+2018-06-13 17:55:48 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/GhibliLoginPage/input_username' is focused
+
+2018-06-13 17:55:48 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliLoginPage/input_username' is focused
+
+2018-06-13 17:55:48 - [TEST_STEP][PASSED] - setText: Text 'luca.bottoni' is set on object 'Object Repository/GhibliLoginPage/input_username'
+
+2018-06-13 17:55:48 - [MESSAGE][PASSED] - Text 'luca.bottoni' is set on object 'Object Repository/GhibliLoginPage/input_username'
+
+2018-06-13 17:55:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-13 17:55:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-13 17:55:49 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/GhibliLoginPage/input_password' is focused
+
+2018-06-13 17:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/GhibliLoginPage/input_password' is focused
+
+2018-06-13 17:55:50 - [TEST_STEP][PASSED] - setText: Text 'N.azionale' is set on object 'Object Repository/GhibliLoginPage/input_password'
+
+2018-06-13 17:55:50 - [MESSAGE][PASSED] - Text 'N.azionale' is set on object 'Object Repository/GhibliLoginPage/input_password'
+
+2018-06-13 17:55:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-13 17:55:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-13 17:55:51 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/GhibliLoginPage/input_password'
+
+2018-06-13 17:55:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/GhibliLoginPage/input_password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test" classname="Test Cases/test" status="FAILED">
+         <failure type="FAILED" message="Unable to execute JavaScript. (Root cause: org.openqa.selenium.WebDriverException: unknown error: Runtime.evaluate threw exception: SyntaxError: missing ) after argument list
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAP-PC-122', ip: '172.28.221.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\LUCA~1.BOT\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: c14bd8ec079786c10b13d99a459b1ae7)"/>
+         <system-out><![CDATA[2018-06-13 17:55:53 - [TEST_CASE][FAILED] - Test Cases/test: Test Cases/test FAILED because (of) Unable to execute JavaScript. (Root cause: org.openqa.selenium.WebDriverException: unknown error: Runtime.evaluate threw exception: SyntaxError: missing ) after argument list
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAP-PC-122', ip: '172.28.221.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\LUCA~1.BOT\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: c14bd8ec079786c10b13d99a459b1ae7)
+
+2018-06-13 17:55:54 - [TEST_STEP][FAILED] - executeJavaScript: Unable to execute JavaScript. (Root cause: org.openqa.selenium.WebDriverException: unknown error: Runtime.evaluate threw exception: SyntaxError: missing ) after argument list
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAP-PC-122', ip: '172.28.221.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\LUCA~1.BOT\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: c14bd8ec079786c10b13d99a459b1ae7)
+
+2018-06-13 17:55:59 - [MESSAGE][FAILED] - Unable to execute JavaScript. (Root cause: org.openqa.selenium.WebDriverException: unknown error: Runtime.evaluate threw exception: SyntaxError: missing ) after argument list
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAP-PC-122', ip: '172.28.221.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\LUCA~1.BOT\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: c14bd8ec079786c10b13d99a459b1ae7)
+[[ATTACHMENT|C:\\Users\\luca.bottoni\\Katalon Studio\\Ghibli\\Reports\\testJS\\20180613_175513\\1528905358582.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-13 17:55:53 - [TEST_CASE][FAILED] - Test Cases/test: Test Cases/test FAILED because (of) Unable to execute JavaScript. (Root cause: org.openqa.selenium.WebDriverException: unknown error: Runtime.evaluate threw exception: SyntaxError: missing ) after argument list
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAP-PC-122', ip: '172.28.221.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\LUCA~1.BOT\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: c14bd8ec079786c10b13d99a459b1ae7)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-13 17:55:17 - [TEST_SUITE][FAILED] - testJS: Test Cases/test FAILED because (of) Unable to execute JavaScript. (Root cause: org.openqa.selenium.WebDriverException: unknown error: Runtime.evaluate threw exception: SyntaxError: missing ) after argument list
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAP-PC-122', ip: '172.28.221.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\LUCA~1.BOT\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: c14bd8ec079786c10b13d99a459b1ae7)]]></system-out>
+      <system-err><![CDATA[2018-06-13 17:55:17 - [TEST_SUITE][FAILED] - testJS: Test Cases/test FAILED because (of) Unable to execute JavaScript. (Root cause: org.openqa.selenium.WebDriverException: unknown error: Runtime.evaluate threw exception: SyntaxError: missing ) after argument list
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAP-PC-122', ip: '172.28.221.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\LUCA~1.BOT\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: c14bd8ec079786c10b13d99a459b1ae7)]]></system-err>
+   </testsuite>
+</testsuites>

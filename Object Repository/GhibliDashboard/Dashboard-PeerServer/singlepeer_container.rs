@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>singlepeer_container</name>
+   <tag></tag>
+   <elementGuidId>ea001ed5-0073-4fe5-b394-b412cc2e16bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[contains(@class,&quot;kt_singlepeer&quot;)])[1]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[contains(@class,&quot;kt_container_singlepeers_grouplist&quot;)])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[contains(@class,&quot;kt_singlepeer&quot;)])[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_NO</name>
+   <tag></tag>
+   <elementGuidId>39bab934-88e4-4e05-8d07-010d27f5810d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,&quot;kt_messagebox_actionserver&quot;)]//a//span[contains(text(),&quot;No&quot;)]/ancestor::a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,&quot;kt_messagebox_actionserver&quot;)]//a//span[contains(text(),&quot;No&quot;)]/ancestor::a</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,40 @@
+1
+00:00:00,139 --> 00:00:00,140
+1. Statement - maps = [com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_sourceQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_destinationQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_correlationID), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflowdashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflow), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_transfersearch), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_setting), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_monitordashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_logout), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter)]
+
+2
+00:00:00,211 --> 00:00:00,213
+5. Statement - total = 0
+
+3
+00:00:00,218 --> 00:00:00,219
+9. Statement - ok = 0
+
+4
+00:00:00,224 --> 00:00:00,227
+13. Statement - ko = 0
+
+5
+00:00:00,233 --> 00:00:00,234
+17. Statement - For (def element : maps)
+
+6
+00:00:00,241 --> 00:00:00,242
+1. Statement - tag = element.findPropertyValue("tag", false)
+
+7
+00:00:00,255 --> 00:00:00,256
+5. Statement - id = element.getObjectId()
+
+8
+00:00:00,269 --> 00:00:00,270
+9. Statement - test = false
+
+9
+00:00:00,278 --> 00:00:00,280
+13. Statement - assert tag != ""
+
+10
+00:00:00,293 --> 00:00:00,295
+17. Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(element, 1)
+

@@ -1,0 +1,12 @@
+1
+00:00:00,124 --> 00:00:00,124
+1. Statement - test = false
+
+2
+00:00:00,129 --> 00:00:00,130
+5. Statement - test = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(GhibliDashboard/btn_logout), 1)
+
+3
+00:00:00,149 --> 00:00:00,150
+9. Statement - assert test == true
+

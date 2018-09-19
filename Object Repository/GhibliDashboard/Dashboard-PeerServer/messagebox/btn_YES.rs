@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_YES</name>
+   <tag></tag>
+   <elementGuidId>a2e7628f-c081-44ea-87d0-622bfaa067fd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,&quot;kt_messagebox_actionserver&quot;)]//a//span[contains(text(),&quot;Yes&quot;)]/ancestor::a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,&quot;kt_messagebox_actionserver&quot;)]//a//span[contains(text(),&quot;Yes&quot;)]/ancestor::a</value>
+   </webElementProperties>
+</WebElementEntity>

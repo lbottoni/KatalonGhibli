@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testJS,Chrome 67.0.3396.87,,2018-06-13 17:55:17,2018-06-13 17:56:02,"45,063s",FAILED
+,,,,,,
+Test Cases/OpenBrowser,Chrome 67.0.3396.87,,2018-06-13 17:55:18,2018-06-13 17:55:40,"22,082s",PASSED
+openBrowser,Chrome 67.0.3396.87,,2018-06-13 17:55:19,2018-06-13 17:55:27,"7,150s",PASSED
+maximizeWindow,Chrome 67.0.3396.87,,2018-06-13 17:55:27,2018-06-13 17:55:28,"1,540s",PASSED
+navigateToUrl,Chrome 67.0.3396.87,,2018-06-13 17:55:28,2018-06-13 17:55:37,"9,158s",PASSED
+waitForElementPresent,Chrome 67.0.3396.87,,2018-06-13 17:55:37,2018-06-13 17:55:38,"0,546s",PASSED
+,,,,,,
+Test Cases/Login,Chrome 67.0.3396.87,,2018-06-13 17:55:40,2018-06-13 17:55:53,"13,191s",PASSED
+Statement - input_login = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_username),Chrome 67.0.3396.87,,2018-06-13 17:55:41,2018-06-13 17:55:41,"0,029s",PASSED
+Statement - input_pwd = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/input_password),Chrome 67.0.3396.87,,2018-06-13 17:55:41,2018-06-13 17:55:41,"0,028s",PASSED
+verifyElementPresent,Chrome 67.0.3396.87,,2018-06-13 17:55:41,2018-06-13 17:55:41,"0,162s",PASSED
+verifyElementPresent,Chrome 67.0.3396.87,,2018-06-13 17:55:41,2018-06-13 17:55:41,"0,102s",PASSED
+setText,Chrome 67.0.3396.87,,2018-06-13 17:55:41,2018-06-13 17:55:42,"0,778s",PASSED
+setText,Chrome 67.0.3396.87,,2018-06-13 17:55:42,2018-06-13 17:55:42,"0,567s",PASSED
+delay,Chrome 67.0.3396.87,,2018-06-13 17:55:42,2018-06-13 17:55:44,"2,071s",PASSED
+Statement - text1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/div_Incorrect Username or Pass)),Chrome 67.0.3396.87,,2018-06-13 17:55:44,2018-06-13 17:55:45,"0,157s",PASSED
+Statement - assert text1 == true,Chrome 67.0.3396.87,,2018-06-13 17:55:45,2018-06-13 17:55:45,"0,016s",PASSED
+doubleClick,Chrome 67.0.3396.87,,2018-06-13 17:55:45,2018-06-13 17:55:45,"0,410s",PASSED
+delay,Chrome 67.0.3396.87,,2018-06-13 17:55:45,2018-06-13 17:55:47,"2,017s",PASSED
+waitForElementPresent,Chrome 67.0.3396.87,,2018-06-13 17:55:47,2018-06-13 17:55:47,"0,046s",PASSED
+"Statement - text2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(""Incorrect Username or Password"", false)",Chrome 67.0.3396.87,,2018-06-13 17:55:47,2018-06-13 17:55:47,"0,441s",PASSED
+Statement - assert text2 == true,Chrome 67.0.3396.87,,2018-06-13 17:55:47,2018-06-13 17:55:47,"0,002s",PASSED
+focus,Chrome 67.0.3396.87,,2018-06-13 17:55:48,2018-06-13 17:55:48,"0,284s",PASSED
+setText,Chrome 67.0.3396.87,,2018-06-13 17:55:48,2018-06-13 17:55:48,"0,679s",PASSED
+delay,Chrome 67.0.3396.87,,2018-06-13 17:55:48,2018-06-13 17:55:49,"1,025s",PASSED
+focus,Chrome 67.0.3396.87,,2018-06-13 17:55:49,2018-06-13 17:55:50,"0,141s",PASSED
+setText,Chrome 67.0.3396.87,,2018-06-13 17:55:50,2018-06-13 17:55:50,"0,301s",PASSED
+delay,Chrome 67.0.3396.87,,2018-06-13 17:55:50,2018-06-13 17:55:51,"1,024s",PASSED
+sendKeys,Chrome 67.0.3396.87,,2018-06-13 17:55:51,2018-06-13 17:55:51,"0,180s",PASSED
+,,,,,,
+Test Cases/test,Chrome 67.0.3396.87,,2018-06-13 17:55:53,2018-06-13 17:56:01,"7,379s",FAILED
+executeJavaScript,Chrome 67.0.3396.87,,2018-06-13 17:55:54,2018-06-13 17:55:59,"4,511s",FAILED

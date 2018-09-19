@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SuiteGhibli,IE 11,,2018-02-14 12:44:31,2018-02-14 12:44:52,"21,348s",PASSED
+,,,,,,
+Test Cases/Login,IE 11,,2018-02-14 12:44:31,2018-02-14 12:44:45,"14,224s",PASSED
+openBrowser,IE 11,,2018-02-14 12:44:32,2018-02-14 12:44:39,"7,336s",PASSED
+waitForPageLoad,IE 11,,2018-02-14 12:44:39,2018-02-14 12:44:39,"0,221s",PASSED
+setText,IE 11,,2018-02-14 12:44:39,2018-02-14 12:44:40,"0,961s",PASSED
+setText,IE 11,,2018-02-14 12:44:40,2018-02-14 12:44:41,"0,697s",PASSED
+Statement - text1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliLoginPage/div_Incorrect Username or Pass)),IE 11,,2018-02-14 12:44:41,2018-02-14 12:44:41,"0,310s",PASSED
+Statement - assert text1 == true,IE 11,,2018-02-14 12:44:41,2018-02-14 12:44:41,"0,001s",PASSED
+sendKeys,IE 11,,2018-02-14 12:44:41,2018-02-14 12:44:42,"0,392s",PASSED
+waitForElementPresent,IE 11,,2018-02-14 12:44:42,2018-02-14 12:44:42,"0,172s",PASSED
+"Statement - text2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(""Incorrect Username or Password"", false)",IE 11,,2018-02-14 12:44:42,2018-02-14 12:44:42,"0,409s",PASSED
+Statement - assert text2 == true,IE 11,,2018-02-14 12:44:42,2018-02-14 12:44:42,"0,001s",PASSED
+setText,IE 11,,2018-02-14 12:44:42,2018-02-14 12:44:43,"0,773s",PASSED
+setText,IE 11,,2018-02-14 12:44:43,2018-02-14 12:44:44,"0,764s",PASSED
+sendKeys,IE 11,,2018-02-14 12:44:44,2018-02-14 12:44:44,"0,430s",PASSED
+delay,IE 11,,2018-02-14 12:44:44,2018-02-14 12:44:45,"1,029s",PASSED
+,,,,,,
+Test Cases/Dashboard,IE 11,,2018-02-14 12:44:45,2018-02-14 12:44:47,"1,515s",PASSED
+"Statement - maps = [com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_transferStatus), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_sourceQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_destinationQueueManager), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/input_correlationID), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflowdashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_workflow), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_transfersearch), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_setting), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_monitordashboard), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_logout), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_clearfilter), com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/btn_applyfilter)]",IE 11,,2018-02-14 12:44:46,2018-02-14 12:44:46,"0,070s",PASSED
+Statement - total = 0,IE 11,,2018-02-14 12:44:46,2018-02-14 12:44:46,"0,001s",PASSED
+Statement - ok = 0,IE 11,,2018-02-14 12:44:46,2018-02-14 12:44:46,"0,000s",PASSED
+Statement - ko = 0,IE 11,,2018-02-14 12:44:46,2018-02-14 12:44:46,"0,000s",PASSED
+Statement - For (def element : maps),IE 11,,2018-02-14 12:44:46,2018-02-14 12:44:47,"1,139s",PASSED
+"Statement - println(""END TEST"")",IE 11,,2018-02-14 12:44:47,2018-02-14 12:44:47,"0,011s",PASSED
+"Statement - println(""> TOTALE:"" + total)",IE 11,,2018-02-14 12:44:47,2018-02-14 12:44:47,"0,000s",PASSED
+"Statement - println(""> OK:"" + ok)",IE 11,,2018-02-14 12:44:47,2018-02-14 12:44:47,"0,000s",PASSED
+"Statement - println(""> KO:"" + ko)",IE 11,,2018-02-14 12:44:47,2018-02-14 12:44:47,"0,000s",PASSED
+,,,,,,
+Test Cases/DashboardTransportFilter,IE 11,,2018-02-14 12:44:47,2018-02-14 12:44:51,"4,490s",PASSED
+Statement - select_status = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/GhibliDashboard/transferStatusCLICK),IE 11,,2018-02-14 12:44:47,2018-02-14 12:44:47,"0,006s",PASSED
+"Statement - optionMap = [""SUBMITTED"":""li_SUBMITTED"", ""SUSPENDED"":""li_SUSPENDED"", ""RESUMED"":""li_RESUMED"", ""STARTED"":""li_STARTED"", ""STARTED_RETRY"":""li_STARTED_RETRY"", ... ]",IE 11,,2018-02-14 12:44:47,2018-02-14 12:44:47,"0,001s",PASSED
+click,IE 11,,2018-02-14 12:44:47,2018-02-14 12:44:51,"3,392s",PASSED
+"Statement - optionMap.each({ java.lang.Object optionIndex, java.lang.Object optionsValue -> ... })",IE 11,,2018-02-14 12:44:51,2018-02-14 12:44:51,"0,827s",PASSED
